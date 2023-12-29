@@ -28,7 +28,8 @@ export const layout = {
 export const customColor = {
     gradientBlue: "bg-gradient-to-r from-sky-400 to-blue-500 text-transparent bg-clip-text",
     buttonGradientBlue: "bg-gradient-to-r from-sky-400 to-blue-500",
-    cardHover: "box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.10"
+    cardHover: "hover:bg-gray-700",
+    cardsBackground: "bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r"
 };
 
 export default style;
