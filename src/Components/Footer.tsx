@@ -1,6 +1,7 @@
 import styles from "../style";
-import {logo} from "../assets";
 import {socialMedia} from "../constants";
+// @ts-ignore
+import DJLogo from '../assets/DJLogo.png'; // Import the image
 
 const Footer = () => (
     <section className = {`${styles.flexCenter} ${styles.paddingY} flex-col`} >
@@ -8,8 +9,8 @@ const Footer = () => (
          md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]" >
             <div>
                 <img
-                    src = {logo}
-                    alt = "hoobank"
+                    src = {DJLogo}
+                    alt = "DJLogo"
                     className = "w-[266px] h-[72.14px] object-contain"
                 />
 

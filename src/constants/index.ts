@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
     {
@@ -8,10 +8,6 @@ export const navLinks = [
     {
         id: "features",
         title: "Features",
-    },
-    {
-        id: "product",
-        title: "Product",
     },
     {
         id: "clients",
@@ -73,36 +69,36 @@ export const feedback = [
 export const stats = [
     {
         id: "stats-1",
-        title: "User Active",
-        value: "3800+",
+        title: "Antal Træninger I fitness i år",
+        value: "220+",
     },
     {
         id: "stats-2",
-        title: "Trusted by Company",
-        value: "230+",
+        title: "Antal Bøger Læst",
+        value: "11+",
     },
     {
         id: "stats-3",
-        title: "Transaction",
-        value: "$230M+",
+        title: "Timer brugt på at finde et ';'",
+        value: "Infinite",
     },
 ];
 
 export const socialMedia = [
     {
         id: "social-media-1",
-        icon: instagram,
-        link: "https://www.instagram.com/",
+        icon: facebook,
+        link: "https://www.facebook.com/profile.php?id=100004485585330",
     },
     {
         id: "social-media-2",
-        icon: facebook,
-        link: "https://www.facebook.com/",
+        icon: instagram,
+        link: "https://www.instagram.com/danieal__j/",
     },
     {
         id: "social-media-4",
         icon: linkedin,
-        link: "https://www.linkedin.com/",
+        link: "www.linkedin.com/in/danieal-johnbaskar",
     },
 ];
 
