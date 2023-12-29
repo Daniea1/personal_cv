@@ -1,6 +1,6 @@
 import React from 'react';
 import {stats} from '../constants';
-import styles from "../style";
+import styles, {customColor} from "../style";
 
 
 const Stats = () => (
@@ -15,10 +15,9 @@ const Stats = () => (
                  leading[43px] text-white">
                     {stat.value}
                 </h4>
-                <p className="font-poppins
+                <p className={`font-poppins
                 font-semibold xs:text-[20px] text-[15px] xs:leading-[26px]
-                 leading[21px] bg-gradient-to-r from-sky-400 to-blue-500 text-transparent bg-clip-text
-                  uppercase ml-3">
+                 leading[21px] ${customColor.gradientBlue} uppercase ml-3`}>
                     {stat.title}</p>
             </div>
         ))}

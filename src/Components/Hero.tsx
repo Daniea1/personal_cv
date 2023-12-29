@@ -1,4 +1,4 @@
-import styles from "../style";
+import styles, {customColor} from "../style";
 import {discount, robot} from "../assets";
 import React from "react";
 
@@ -21,7 +21,7 @@ const Hero = () => {
                 <div className = "flex flex-row justify-between items-center w-full" >
                     <h1 className = "flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]" >
                         The Next <br className = "sm:block hidden" />{" "}
-                        <span className = "bg-gradient-to-r from-sky-400 to-blue-500 text-transparent bg-clip-text" >
+                        <span className ={`${customColor.gradientBlue}`} >
                             Generation</span >{" "}
                     </h1 >
                 </div >
