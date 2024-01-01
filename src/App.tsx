@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style';
-import {Navbar, Business, Clients, CTA, Stats, Footer, Testimonials, Hero,} from "./Components";
+import {Navbar, Business, Clients, CTA, Stats, Footer, Testimonials, Hero, Competence} from "./Components";
 
 function App() {
     return (
@@ -20,6 +20,7 @@ function App() {
             <div className = {`bg-black ${styles.paddingX} ${styles.flexStart}`} >
                 <div className = {`bg-black ${styles.boxWidth}`} >
                     <Stats />
+                    <Competence/>
                     <Business />
                     <Testimonials />
                     <Clients />
