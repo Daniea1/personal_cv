@@ -1,6 +1,6 @@
 import React from 'react';
-import {reasons} from "./infoArray";
-import styles, {layout} from "../style";
+import {reasons} from "../infoArray";
+import styles, {layout} from "../../style";
 import Button from "./Button";
 import FeatureCard from "./FeatureCard";
 

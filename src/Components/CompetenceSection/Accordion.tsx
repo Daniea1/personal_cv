@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { AccordionData } from "./infoArray";
-import {customColor} from "../style";
+import { AccordionData } from "../infoArray";
+import {customColor} from "../../style";
 
 const Accordion = () => {
     const [activeIndex, setActiveIndex] = useState<number | null>(null);

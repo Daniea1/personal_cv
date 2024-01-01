@@ -1,5 +1,5 @@
 import styles, {customColor} from "../style";
-import Button from "./Button";
+import Button from "./BusinessSection/Button";
 import React from "react";
 
 const ContactFormular = () => (

@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "../style";
 import {socialMedia} from "./infoArray";
 import {DJLogo} from "../assets";

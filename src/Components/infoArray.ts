@@ -4,7 +4,8 @@ import {
     linkedin,
     send,
     shield,
-    star
+    star,
+    personalWebsite
 } from "../assets";
 
 export const navLinks = [
@@ -121,5 +122,14 @@ export const AccordionData = [
     {
         title: 'Firebase',
         text: 'I am familiar with Firebase, a platform developed by Google for creating mobile and web applications. I have utilized Firebase for various features such as authentication, real-time database, and hosting.',
+    },
+];
+
+export const ProjectData = [
+    {
+        projectPicture: personalWebsite,
+        title: 'Personlig hjemmeside',
+        description: "Min egen hjemmeside brugt til at fremvise mine projekter og færdigheder.",
+        kildeKode:"https://github.com/Daniea1/personal_cv",
     },
 ];

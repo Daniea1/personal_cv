@@ -1,5 +1,5 @@
 import React from 'react';
-import {customColor} from "../style";
+import {customColor} from "../../style";
 
 const Button = ({ styles }: { styles: string }) => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import {reasons} from "./infoArray";
-import styles, {customColor} from "../style";
+import {reasons} from "../infoArray";
+import styles, {customColor} from "../../style";
 
 const FeatureCard = ({icon, title, content, index}: { icon: string; title: string; content: string; index: number }) => (
     <div className = {`flex flex-row p-6 rounded-[20px] 
