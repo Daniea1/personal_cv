@@ -1,5 +1,5 @@
 import styles from "../style";
-import {socialMedia} from "../constants";
+import {socialMedia} from "./infoArray";
 // @ts-ignore
 import DJLogo from '../assets/DJLogo.png'; // Import the image
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from "react";
 import {close, menu} from '../assets';
-import {navLinks} from "../constants";
+import {navLinks} from "./infoArray";
 // @ts-ignore
 import DJLogo from "../assets/DJLogo.png";
 

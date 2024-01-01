@@ -8,7 +8,7 @@ const Button = ({ styles }: { styles: string }) => {
             className={`py-4 px-6 ${customColor.buttonGradientBlue}
             font-poppins font-medium text-[18px] text-white
             outline-none rounded-xl ${styles}`} >
-            Get Started
+            Send e-mail
         </button>
     );
 };

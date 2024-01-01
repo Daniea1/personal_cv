@@ -1,5 +1,5 @@
 import React from 'react';
-import {features} from "../constants";
+import {reasons} from "./infoArray";
 import styles, {layout} from "../style";
 import Button from "./Button";
 import FeatureCard from "./FeatureCard";
@@ -19,7 +19,7 @@ const Business = () => {
             </div >
 
             <div className={`${layout.sectionImg} flex-col`}>
-                {features.map((feature, index) =>(
+                {reasons.map((feature, index) =>(
                     <FeatureCard key={feature.id}{...feature} index={index}/>
                     ))}
 

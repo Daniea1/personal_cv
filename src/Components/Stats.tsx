@@ -1,5 +1,5 @@
 import React from 'react';
-import {stats} from '../constants';
+import {stats} from './infoArray';
 import styles, {customColor} from "../style";
 
 

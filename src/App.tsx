@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style';
-import {Navbar, Business, Clients, CTA, Stats, Footer, Testimonials, Hero, Competence} from "./Components";
+import {Navbar, Business, CTA, Stats, Footer, Hero, Competence} from "./Components";
 
 function App() {
     return (
@@ -22,8 +22,6 @@ function App() {
                     <Stats />
                     <Competence/>
                     <Business />
-                    <Testimonials />
-                    <Clients />
                     <CTA />
                     <Footer />
                 </div >

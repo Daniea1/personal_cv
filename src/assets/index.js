@@ -1,7 +1,3 @@
-import airbnb from "./airbnb.png";
-import binance from "./binance.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -13,15 +9,9 @@ import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
+import DJLogo from "./DJLogo.png";
 
 export {
-    airbnb,
-    binance,
-    coinbase,
-    dropbox,
     quotes,
     robot,
     send,
@@ -33,7 +23,5 @@ export {
     facebook,
     instagram,
     linkedin,
-    people01,
-    people02,
-    people03,
+    DJLogo,
 };

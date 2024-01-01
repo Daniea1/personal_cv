@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AccordionData } from "../constants";
+import { AccordionData } from "./infoArray";
 import {customColor} from "../style";
 
 const Accordion = () => {
