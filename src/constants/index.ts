@@ -1,4 +1,18 @@
-import { people01, people02, people03, facebook, instagram, linkedin, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+    people01,
+    people02,
+    people03,
+    facebook,
+    instagram,
+    linkedin,
+    airbnb,
+    binance,
+    coinbase,
+    dropbox,
+    send,
+    shield,
+    star
+} from "../assets";
 import Accordion from "../Components/Accordion";
 
 export const navLinks = [
@@ -24,23 +38,26 @@ export const features = [
     {
         id: "feature-1",
         icon: star,
-        title: "Rewards",
+        title: "Løsningsorienteret",
         content:
-            "The best credit cards offer some tantalizing combinations of promotions and prizes",
+            "Jeg er dygtig til at analysere og nedbryde problemer i håndterbare komponenter" +
+            " og udvikle effektive løsninger."
     },
     {
         id: "feature-2",
         icon: shield,
-        title: "100% Secured",
+        title: "Holdspiller",
         content:
-            "We take proactive steps make sure your information and transactions are secure.",
+            "jeg trives i samarbejdsmiljøer og bidrager effektivt til tværfaglige teams med" +
+            " stærke kommunikationsevner og forpligtelse til positivt teamdynamik.",
     },
     {
         id: "feature-3",
         icon: send,
-        title: "Balance Transfer",
+        title: "Fleksibel",
         content:
-            "A balance transfer credit card can save you a lot of money in interest charges.",
+            "Jeg omfavner en vækstmindset og er hurtig til at mestre nye sprog," +
+            " rammer og værktøjer for at sikre tilpasning til skiftende projektbehov.",
     },
 ];
 
