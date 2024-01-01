@@ -1,7 +1,6 @@
 import styles from "../style";
 import {socialMedia} from "./infoArray";
-// @ts-ignore
-import DJLogo from '../assets/DJLogo.png'; // Import the image
+import {DJLogo} from "../assets";
 
 const Footer = () => (
     <section className = {`${styles.flexCenter} ${styles.paddingY} flex-col`} >

@@ -2,8 +2,7 @@ import React from 'react';
 import {useState} from "react";
 import {close, menu} from '../assets';
 import {navLinks} from "./infoArray";
-// @ts-ignore
-import DJLogo from "../assets/DJLogo.png";
+import {DJLogo} from "../assets";
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);

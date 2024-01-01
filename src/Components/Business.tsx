@@ -6,7 +6,7 @@ import FeatureCard from "./FeatureCard";
 
 const Business = () => {
     return (
-        <section id = "features" className = {`${layout.section}`} >
+        <section id = "reasons" className = {`${layout.section}`} >
             <div className = {`${layout.sectionInfo}`} >
                 <h2 className = {`${styles.heading2}`} >
                     3 årsager til, <br className = "sm:block hidden" /> at du bør ansætte mig.

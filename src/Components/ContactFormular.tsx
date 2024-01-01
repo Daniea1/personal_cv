@@ -2,7 +2,7 @@ import styles, {customColor} from "../style";
 import Button from "./Button";
 import React from "react";
 
-const CTA = () => (
+const ContactFormular = () => (
     <section id="Kontakt" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col ${customColor.cardsBackground} rounded-[20px] box-shadow`}>
         <div className="flex-1 flex flex-col">
             <h2 className={styles.heading2}>Kontakt mig</h2>
@@ -20,4 +20,4 @@ const CTA = () => (
     </section>
 );
 
-export default CTA;
+export default ContactFormular;

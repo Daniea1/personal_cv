@@ -21,8 +21,12 @@ export const navLinks = [
         title: "Kompetencer",
     },
     {
-        id: "clients",
-        title: "Clients",
+        id: "Projects",
+        title: "Projekter",
+    },
+    {
+        id: "Kontakt",
+        title: "Kontakt",
     },
 ];
 
@@ -105,10 +109,6 @@ export const AccordionData = [
     {
         title: 'React',
         text: 'I am proficient in React, a JavaScript library for building user interfaces. I have utilized React to develop responsive and interactive single-page applications.',
-    },
-    {
-        title: 'React Native',
-        text: 'I have experience with React Native, using it to build cross-platform mobile applications. It allows me to leverage my React skills for mobile development.',
     },
     {
         title: 'MongoDB',
