@@ -93,33 +93,34 @@ export const socialMedia = [
 export const AccordionData = [
     {
         title: 'Java',
-        text: 'I have experience working with Java, a high-level, class-based, object-oriented programming language designed for building scalable and reliable applications.',
+        text: 'Jeg har erfaring med at arbejde med Java, et højt niveau, klassificeret, objektorienteret programmeringssprog designet til at opbygge skalerbare og pålidelige applikationer.',
     },
     {
         title: 'HTML & CSS',
-        text: 'I am familiar with HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets), using them to create well-structured and visually appealing web pages.',
+        text: 'Jeg er fortrolig med HTML (Hypertext Markup Language) og CSS (Cascading Style Sheets), og bruger dem til at skabe velformaterede og visuelt tiltalende websider.',
     },
     {
         title: 'JavaScript & TypeScript',
-        text: 'I have hands-on experience with JavaScript and TypeScript, leveraging their capabilities to create dynamic and robust web applications.',
+        text: 'Jeg har praktisk erfaring med JavaScript og TypeScript og udnytter deres evner til at skabe dynamiske og robuste webapplikationer.',
     },
     {
         title: 'React',
-        text: 'I am proficient in React, a JavaScript library for building user interfaces. I have utilized React to develop responsive and interactive single-page applications.',
+        text: 'Jeg er dygtig i React, et JavaScript-bibliotek til opbygning af brugergrænseflader. Jeg har anvendt React til at udvikle responsive og interaktive single-page-applikationer.',
     },
     {
         title: 'MongoDB',
-        text: 'I have worked with MongoDB, a NoSQL database program. My experience includes designing flexible data models for scalable and high-performance applications.',
+        text: 'Jeg har arbejdet med MongoDB, et NoSQL-databaseprogram. Min erfaring inkluderer design af fleksible datamodeller til skalerbare og højtydende applikationer.',
     },
     {
         title: 'PostgreSQL',
-        text: 'I have experience with PostgreSQL, a powerful open-source relational database system. I have utilized it to design and manage relational databases for various applications.',
+        text: 'Jeg har erfaring med PostgreSQL, et kraftfuldt open-source relationsdatabase system. Jeg har anvendt det til at designe og administrere relationelle databaser til forskellige applikationer.',
     },
     {
         title: 'Firebase',
-        text: 'I am familiar with Firebase, a platform developed by Google for creating mobile and web applications. I have utilized Firebase for various features such as authentication, real-time database, and hosting.',
+        text: 'Jeg er fortrolig med Firebase, en platform udviklet af Google til at skabe mobile og webapplikationer. Jeg har brugt Firebase til forskellige funktioner som godkendelse, realtidsdatabase og hosting.',
     },
 ];
+
 
 export const ProjectData = [
     {
