@@ -4,7 +4,7 @@ import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
     return (
-        <section id = "competence" >
+        <section id = "Projects" >
             <div className = "grid justify-items-center" >
                 <div className = {` font-poppins font-semibold xs:text-[25px] text-[40px] 
                 xs:leading-[26px] leading[21px] ${customColor.gradientBlue} uppercase mb-5`} >

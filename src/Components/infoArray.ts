@@ -14,10 +14,6 @@ export const navLinks = [
         title: "Home",
     },
     {
-        id: "reasons",
-        title: "3 årsager til..",
-    },
-    {
         id: "competence",
         title: "Kompetencer",
     },
