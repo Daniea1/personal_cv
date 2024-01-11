@@ -56,7 +56,7 @@ const ContactFormular = () => {
                         htmlFor = "name"
                         className = "block text-sm font-medium text-white"
                     >
-                        Name:
+                        Navn:
                     </label >
                     <input
                         type = "text"
@@ -88,7 +88,7 @@ const ContactFormular = () => {
                         htmlFor = "message"
                         className = "block text-sm font-medium text-white"
                     >
-                        Message:
+                        Besked:
                     </label >
                     <textarea
                         placeholder = "Skriv din besked her..."
