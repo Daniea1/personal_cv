@@ -22,7 +22,7 @@ const ProjectsCard = () => {
                         <div className="flex items-center mt-2 text-white">
                             <button
                                 type="button"
-                                className={`py-4 px-6 ${customColor.buttonGradientBlue} font-poppins font-medium text-[18px] text-white outline-none rounded-xl`}
+                                className={`py-2 px-3 ${customColor.buttonGradientBlue} font-poppins font-medium text-[14px] text-white outline-none rounded-xl`}
                             >
                                 <a href={item.kildeKode} target="_blank" rel="noopener noreferrer">
                                     Kilde kode

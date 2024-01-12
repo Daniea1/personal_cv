@@ -8,13 +8,17 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
+
+        //logo in navbar
         <nav className = "w-full flex py-6 justify-between items-center navbar" >
             <img src = {DJLogo} alt = "DJLogo" className = "w-[250px] h-[62px]" />
 
+            {/*The responsive menu large screen*/}
             <ul className = "list-none, sm:flex hidden justify-end items-center flex-1" >
                 {navLinks.map((nav, index) => (
                     <li key = {nav.id}
-                        className = {`font-poppins font-normal cursor-pointer text-[16px] 
+                        className = {`font-poppins font-normal cursor-pointer hover:bg-gray-700
+                        active:bg-gray-800 rounded-lg text-[16px] px-2 
                         ${index === navLinks.length - 1 ? `mr-0` : `mr-10`} text-white`}
                     >
                         <a href = {`#${nav.id}`} >
@@ -25,6 +29,7 @@ const Navbar = () => {
                 ))}
             </ul >
 
+            {/*The responsive menu phone*/}
             <div className = "sm:hidden flex flex-1 justify-end items-center" >
                 <img
                     src = {toggle ? close : menu}
@@ -42,10 +47,10 @@ const Navbar = () => {
                     <ul className = "list-none, flex flex-col justify-end items-center flex-1" >
                         {navLinks.map((nav, index) => (
                             <li key = {nav.id}
-                                className = {`font-poppins font-normal cursor-pointer text-[16px] 
-                        ${index === navLinks.length - 1 ? `mr-0` : `mb-4`} text-white`}
-                            >
-                                <a href = {`#${nav.id}`} >
+                                className = {`font-poppins font-normal cursor-pointer
+                                hover:bg-gray-600 rounded-lg text-[16px] px-2 
+                                ${index === navLinks.length - 1 ? `mr-0` : `mb-4`} text-white`} >
+                                <a href = {`#${nav.id}`} onClick = {() => setToggle((prev) => !prev)} >
                                     {nav.title}
                                 </a >
 

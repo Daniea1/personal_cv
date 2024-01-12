@@ -100,7 +100,7 @@ const ContactFormular = () => {
 
                 <button
                     type = "submit"
-                    className = "block mx-auto bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600"
+                    className={`block mx-auto ${customColor.buttonGradientBlue} text-white p-2 rounded-md`}
                 >
                     Submit
                 </button >

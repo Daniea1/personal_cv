@@ -2,7 +2,7 @@ import React from "react";
 import styles, {customColor} from "../style";
 import {robot} from "../assets";
 
-const Hero = () => {
+const FrontPage = () => {
 
     // Discount banner
     return (
@@ -40,4 +40,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default FrontPage;

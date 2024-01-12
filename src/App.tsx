@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style';
-import {Navbar, Business, ContactFormular, Stats, Footer, Hero, Competence, Projects} from "./Components";
+import {Navbar, Business, ContactFormular, Stats, Footer, FrontPage, Competence, Projects} from "./Components";
 
 function App() {
     return (
@@ -13,7 +13,7 @@ function App() {
 
             <div className = {`bg-black ${styles.flexStart}`} >
                 <div className = {`bg-black ${styles.boxWidth}`} >
-                    <Hero />
+                    <FrontPage />
                 </div >
             </div >
 
