@@ -93,31 +93,31 @@ export const socialMedia = [
 export const AccordionData = [
     {
         title: 'Java',
-        text: 'Jeg har erfaring med at arbejde med Java, et højt niveau, klassificeret, objektorienteret programmeringssprog designet til at opbygge skalerbare og pålidelige applikationer.',
+        text: 'Jeg har igennem mit studie erfaring med at arbejde med Java, et objektorienteret programmeringssprog designet til at opbygge skalerbare og pålidelige applikationer.',
     },
     {
         title: 'HTML & CSS',
-        text: 'Jeg er fortrolig med HTML (Hypertext Markup Language) og CSS (Cascading Style Sheets), og bruger dem til at skabe velformaterede og visuelt tiltalende websider.',
+        text: 'Jeg har igennem mit studie blevet fortrolig med HTML (Hypertext Markup Language) og CSS (Cascading Style Sheets), og bruger dem til at skabe visuelt tiltalende websider.',
     },
     {
         title: 'JavaScript & TypeScript',
-        text: 'Jeg har praktisk erfaring med JavaScript og TypeScript og udnytter deres evner til at skabe dynamiske og robuste webapplikationer.',
+        text: 'Jeg har igennem mit studie erfaring med JavaScript og TypeScript og udnytter deres evner til at skabe dynamiske og robuste webapplikationer.',
     },
     {
         title: 'React',
-        text: 'Jeg er dygtig i React, et JavaScript-bibliotek til opbygning af brugergrænseflader. Jeg har anvendt React til at udvikle responsive og interaktive single-page-applikationer.',
+        text: 'Jeg har i min egen fritid lært at kode i i React, et JavaScript-bibliotek til opbygning af brugergrænseflader. Jeg har bl.a. anvendt React til at udvikle et responsive og interaktive single-page hjemmeside (denne hjemmeside).',
     },
     {
         title: 'MongoDB',
-        text: 'Jeg har arbejdet med MongoDB, et NoSQL-databaseprogram. Min erfaring inkluderer design af fleksible datamodeller til skalerbare og højtydende applikationer.',
+        text: 'Jeg har igennem mit studie arbejdet med MongoDB, et NoSQL-databaseprogram. Jeg har anvendt det til at designe og administrere document-based databaser til forskellige projekter her på universitet.',
     },
     {
         title: 'PostgreSQL',
-        text: 'Jeg har erfaring med PostgreSQL, et kraftfuldt open-source relationsdatabase system. Jeg har anvendt det til at designe og administrere relationelle databaser til forskellige applikationer.',
+        text: 'Jeg har igennem mit studie arbejdet med PostgreSQL, et  open-source relationsdatabase system. Jeg har anvendt det til at designe og administrere relationelle databaser til forskellige projekter her på universitet.',
     },
     {
         title: 'Firebase',
-        text: 'Jeg er fortrolig med Firebase, en platform udviklet af Google til at skabe mobile og webapplikationer. Jeg har brugt Firebase til forskellige funktioner som godkendelse, realtidsdatabase og hosting.',
+        text: 'Jeg har i min egen fritid blevet fortrolig med Firebase, en platform udviklet af Google til at skabe mobile og webapplikationer. Jeg har brugt Firebase til forskellige funktioner som login gennem google konto, database og hosting.',
     },
 ];
 
