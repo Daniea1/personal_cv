@@ -1,15 +1,24 @@
 import React, {useState} from 'react';
-import styles, {customColor} from '../style';
+import styles, {customColor} from '../../style';
 import emailjs from '@emailjs/browser';
+import {emailSchema} from "./EmailValidation";
 
 const ContactFormular = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
+        // wait for 'validateEmail' to be validated
+        const isValidEmail = await validateEmail();
+        if (!isValidEmail) {
+            console.log('Invalid email');
+            return;
+        }
+
+        // parameters nedeed for submiting message to my mail
         const serviceId = 'service_r3wizdg';
         const templateId = 'template_lu2wlmh';
         const publicKey = '4emBEfuzcXPMu5crm';
@@ -21,6 +30,7 @@ const ContactFormular = () => {
             message: message,
         };
 
+        // Submits the message to my mail
         emailjs
             .send(serviceId, templateId, templateParams, publicKey)
             .then((response) => {
@@ -34,17 +44,34 @@ const ContactFormular = () => {
             });
     };
 
+    //validates the message using 'emailSchema'
+    const validateEmail = async () => {
+        const emailData = {
+            name,
+            email,
+        };
+
+        try {
+            await emailSchema.validate(emailData);
+            console.log('Email is valid');
+            return true;
+        } catch (error) {
+            console.error('Email validation error:', error);
+            return false;
+        }
+    };
+
     return (
         <section
             id = "Kontakt"
-            className = {`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col ${customColor.cardsBackground} rounded-[20px] box-shadow`}
-        >
+            className = {`${styles.flexCenter} ${styles.marginY} ${styles.padding}
+             sm:flex-row flex-col ${customColor.cardsBackground} rounded-[20px] box-shadow`} >
             <div className = "flex-1 flex flex-col" >
                 <h2 className = {styles.heading2} >Kontakt mig</h2 >
                 <p className = {`${styles.paragraph} max-w-[470px] mt-5`} >
                     Du kan kontakte mig ved at sende en e-mail til:
                 </p >
-                <address className="text-white">danieal3@hotmail.com</address >
+                <address className = "text-white" >danieal3@hotmail.com</address >
             </div >
 
             <form
@@ -100,8 +127,8 @@ const ContactFormular = () => {
 
                 <button
                     type = "submit"
-                    className={`block mx-auto ${customColor.buttonGradientBlue} text-white p-2 rounded-md`}
-                >
+                    className = {`block mx-auto ${customColor.buttonGradientBlue}
+                     text-white p-2 rounded-md`} >
                     Submit
                 </button >
             </form >

@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Business from "./BusinessSection/Business";
-import ContactFormular from "./ContactFormular";
+import ContactFormular from "./ContactSection/ContactFormular";
 import Stats from "./Stats";
 import Footer from "./Footer";
 import FrontPage from "./FrontPage";
