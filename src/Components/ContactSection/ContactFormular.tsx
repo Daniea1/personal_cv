@@ -7,14 +7,16 @@ const ContactFormular = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [formSubmitted, setFormSubmitted] = useState(false);
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        setFormSubmitted(true);
 
-        // wait for 'validateEmail' to be validated
-        const isValidEmail = await validateEmail();
-        if (!isValidEmail) {
-            console.log('Invalid email');
+        // wait for 'validateMessage' to be validated
+        const isValidMessage = await validateMessage();
+        if (!isValidMessage) {
+            console.log('Invalid message');
             return;
         }
 
@@ -45,10 +47,11 @@ const ContactFormular = () => {
     };
 
     //validates the message using 'emailSchema'
-    const validateEmail = async () => {
+    const validateMessage = async () => {
         const emailData = {
             name,
             email,
+            message
         };
 
         try {
@@ -90,8 +93,12 @@ const ContactFormular = () => {
                         placeholder = "Navn..."
                         value = {name}
                         onChange = {(e) => setName(e.target.value)}
-                        className = "mt-1 p-2 w-full border rounded-md"
+                        className = {`mt-1 p-2 w-full border rounded-md
+                         ${formSubmitted && name === '' && 'border-red-500'}`} // Highlight border if form is submitted and name is empty
                     />
+                    {formSubmitted && name === '' && (
+                        <p className = "text-red-500 text-sm mt-1" >Navn er påkrævet</p >
+                    )}
                 </div >
 
                 <div className = "mb-4" >
@@ -106,8 +113,12 @@ const ContactFormular = () => {
                         placeholder = "e-mail..."
                         value = {email}
                         onChange = {(e) => setEmail(e.target.value)}
-                        className = "mt-1 p-2 w-full border rounded-md"
+                        className = {`mt-1 p-2 w-full border rounded-md
+                         ${formSubmitted && email === '' && 'border-red-500'}`} // Highlight border if form is submitted and email is empty
                     />
+                    {formSubmitted && email === '' && (
+                        <p className = "text-red-500 text-sm mt-1" >Email er påkrævet</p >
+                    )}
                 </div >
 
                 <div className = "mb-4" >
@@ -121,8 +132,12 @@ const ContactFormular = () => {
                         placeholder = "Skriv din besked her..."
                         value = {message}
                         onChange = {(e) => setMessage(e.target.value)}
-                        className = "mt-1 p-2 w-full border rounded-md"
-                    ></textarea >
+                        className = {`mt-1 p-2 w-full border rounded-md
+                         ${formSubmitted && message === '' && 'border-red-500'}`} > // Highlight border if form is submitted and message is empty
+                    </textarea >
+                    {formSubmitted && message === '' && (
+                        <p className = "text-red-500 text-sm mt-1" >Besked er påkrævet</p >
+                    )}
                 </div >
 
                 <button
