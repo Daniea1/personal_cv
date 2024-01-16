@@ -93,7 +93,7 @@ export const socialMedia = [
 export const AccordionData = [
     {
         title: 'Java',
-        text: 'Jeg har igennem mit studie erfaring med at arbejde med Java, et objektorienteret programmeringssprog designet til at opbygge skalerbare og pålidelige applikationer.',
+        text: 'Jeg har igennem mit studie erfaring med at arbejde med Java, et objektorienteret programmerings-sprog designet til at opbygge skalerbare og pålidelige applikationer.',
     },
     {
         title: 'HTML & CSS',
@@ -105,7 +105,7 @@ export const AccordionData = [
     },
     {
         title: 'React',
-        text: 'Jeg har i min egen fritid lært at kode i i React, et JavaScript-bibliotek til opbygning af brugergrænseflader. Jeg har bl.a. anvendt React til at udvikle et responsive og interaktive single-page hjemmeside (denne hjemmeside).',
+        text: 'Jeg har i min egen fritid lært at kode i i React, et JavaScript bibliotek til opbygning af bruger-grænseflader. Jeg har bl.a. anvendt React til at udvikle et responsive og interaktive single-page hjemmeside (denne hjemmeside).',
     },
     {
         title: 'MongoDB',
