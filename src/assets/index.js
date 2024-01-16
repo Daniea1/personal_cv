@@ -9,6 +9,7 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import DJLogo from "./DJLogo.png";
+import DJLogoDark from "./DJLogoDark.png"
 import personalWebsite from "./personalWebiste.png";
 
 export {
@@ -23,5 +24,6 @@ export {
     instagram,
     linkedin,
     DJLogo,
+    DJLogoDark,
     personalWebsite,
 };

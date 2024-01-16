@@ -101,7 +101,7 @@ export const AccordionData = [
     },
     {
         title: 'JavaScript & TypeScript',
-        text: 'Jeg har igennem mit studie erfaring med JavaScript og TypeScript og udnytter deres evner til at skabe dynamiske og robuste webapplikationer.',
+        text: 'Jeg har igennem mit studie erfaring med JavaScript og TypeScript og at udnytte deres evner til at skabe dynamiske og robuste webapplikationer.',
     },
     {
         title: 'React',
