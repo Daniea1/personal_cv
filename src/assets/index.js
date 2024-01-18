@@ -16,6 +16,12 @@ import DJLogoDark from "./DJLogoDark.png"
 import personalWebsite from "./personalWebiste.png";
 import closeDark from "./closeDark.png";
 import menuDark from "./menuDark.png";
+import backToTopArrow from "./backToTopArrow.png"
+import sidebarArrow from "./sidebarArrow.png"
+import reverseSidebarArrow from "./reverseSidebarArrow.png"
+import darkModeIcon from "./darkModeIcon.png"
+import lightModeIcon from "./lightModeIcon.png"
+import mailIcon from "./mailIcon.png"
 
 export {
     quotes,
@@ -36,4 +42,10 @@ export {
     DJLogo,
     DJLogoDark,
     personalWebsite,
+    backToTopArrow,
+    sidebarArrow,
+    darkModeIcon,
+    lightModeIcon,
+    reverseSidebarArrow,
+    mailIcon
 };

@@ -5,7 +5,7 @@ import FeatureCard from "./FeatureCard";
 
 const Business = () => {
 
-    const onClick1 = () => {
+    const scrollToContactFormular = () => {
         window.location.href = "#Kontakt";
     };
 
@@ -24,7 +24,7 @@ const Business = () => {
                     className = {`py-2 px-3 ${customColor.buttonGradientBlue}
                     font-poppins font-medium text-[18px] text-white
                     outline-none rounded-xl ${styles}`}
-                    onClick={onClick1}>
+                    onClick={scrollToContactFormular}>
                     Send e-mail
                 </button >
             </div >

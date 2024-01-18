@@ -109,7 +109,7 @@ export const socialMediaDark = [
     },
 ];
 
-export const AccordionData = [
+export const accordionData = [
     {
         title: 'Java',
         text: 'Jeg er igennem mit studie blevet fortrolig med at arbejde med Java, et objektorienteret programmerings-sprog designet til at opbygge skalerbare og pålidelige applikationer.',
@@ -141,11 +141,29 @@ export const AccordionData = [
 ];
 
 
-export const ProjectData = [
+export const projectData = [
     {
         projectPicture: personalWebsite,
         title: 'Personlig hjemmeside',
         description: "Min egen hjemmeside brugt til at fremvise mine projekter og færdigheder.",
         kildeKode: "https://github.com/Daniea1/personal_cv",
+    },
+];
+
+export const sidebar = [
+    {
+        id: "social-media-1",
+        icon: facebook,
+        link: "https://www.facebook.com/profile.php?id=100004485585330",
+    },
+    {
+        id: "social-media-2",
+        icon: instagram,
+        link: "https://www.instagram.com/danieal__j/",
+    },
+    {
+        id: "social-media-3",
+        icon: linkedin,
+        link: "https://www.linkedin.com/in/danieal-johnbaskar",
     },
 ];

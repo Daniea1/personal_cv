@@ -12,16 +12,16 @@ const Navbar = () => {
 
         //logo in navbar
         <nav className = "w-full flex py-6 justify-between items-center navbar" >
-            <div className="block dark:hidden">
+            <div className = "block dark:hidden" >
                 <img src = {DJLogo} alt = "DJLogo" className = "sm:w-[200px] lg:w-[250px] h-[62px]" />
-            </div>
-            <div className="hidden dark:block">
+            </div >
+            <div className = "hidden dark:block" >
                 <img src = {DJLogoDark} alt = "DJLogo" className = "sm:w-[200px] lg:w-[250px] h-[62px]" />
-            </div>
+            </div >
 
             {/*The responsive menu large screen*/}
             <ul className = "list-none, sm:flex hidden justify-end items-center flex-1" >
-                {navLinks.map((nav, index) => (
+                {navLinks.map((nav) => (
                     <li key = {nav.id}
                         className = {`font-poppins font-normal cursor-pointer hover:bg-gray-700
                         active:bg-gray-800 dark:hover:bg-gray-200 dark:active:bg-gray-300
@@ -32,29 +32,29 @@ const Navbar = () => {
 
                     </li >
                 ))}
-                <ThemeSwitcher width="16" />
+                <ThemeSwitcher />
             </ul >
 
 
             {/*The responsive menu phone*/}
             <div className = "sm:hidden flex flex-1 justify-end items-center" >
-                <div className="block dark:hidden">
-                <img
-                    src = {toggle ? close : menu}
-                    alt = "menu"
-                    className = "w-[28px] h-[28px] object-contain mr-2"
-                    onClick = {() => setToggle((prev) => !prev)}
-                />
-                </div>
+                <div className = "block dark:hidden" >
+                    <img
+                        src = {toggle ? close : menu}
+                        alt = "menu"
+                        className = "w-[28px] h-[28px] object-contain mr-2"
+                        onClick = {() => setToggle((prev) => !prev)}
+                    />
+                </div >
 
-                <div className="hidden dark:block">
-                <img
-                    src = {toggle ? closeDark : menuDark}
-                    alt = "menu"
-                    className = "w-[28px] h-[28px] object-contain mr-2"
-                    onClick = {() => setToggle((prev) => !prev)}
-                />
-                </div>
+                <div className = "hidden dark:block" >
+                    <img
+                        src = {toggle ? closeDark : menuDark}
+                        alt = "menu"
+                        className = "w-[28px] h-[28px] object-contain mr-2"
+                        onClick = {() => setToggle((prev) => !prev)}
+                    />
+                </div >
 
                 <div
                     className = {`${toggle ? 'flex' : 'hidden'} p-6 ${customColor.gradientGrey}
@@ -74,10 +74,16 @@ const Navbar = () => {
                         ))}
                     </ul >
                 </div >
-                <ThemeSwitcher width="16" />
+                <ThemeSwitcher />
             </div >
         </nav >
     )
 };
 
 export default Navbar;
+
+
+//notes for future development
+//You can use the principles of the scrollToTopButton
+//and making the navbar backround blurry and add the shadow at the button
+//as well as giving it a fixed postition at the top

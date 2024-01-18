@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './style';
 import {Navbar, Business, ContactFormular, Stats, Footer, FrontPage, Competence, Projects} from "./Components";
 import BackToTopButton from "./Components/BackToTopButton";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                 </div >
             </div >
             <BackToTopButton/>
+            <Sidebar/>
         </div >
     );
 }

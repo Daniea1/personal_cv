@@ -1,12 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { customColor } from "../style";
+import React, {useState, useEffect} from 'react';
+import {customColor} from "../style";
+import {darkModeIcon, lightModeIcon} from "../assets";
 
-// Interface for defining the width of the ThemeSwitcher component
-interface Props {
-    width: string;
-}
-
-const ThemeSwitcher = ({ width }: Props) => {
+const ThemeSwitcher = () => {
     const [darkMode, setDarkMode] = useState(false);
 
     // Effect hook to check the initial dark mode state from localStorage
@@ -32,14 +28,17 @@ const ThemeSwitcher = ({ width }: Props) => {
 
     return (
         <button
-            onClick={toggleDarkMode}
-            className={`px-4 py-2 rounded-full w-${width}
+            onClick = {toggleDarkMode}
+            className = {`px-4 py-2 rounded-full w-[50px] h-[50px]
              ${darkMode ? `${customColor.gradientGrey}` : 'bg-gray-800'}
-              ${darkMode ? 'text-black' : 'text-white'}
                transition-colors duration-200`}
         >
-            {darkMode ? 'Light Mode' : 'Dark Mode'}
-        </button>
+            {darkMode ? (
+                <img src = {lightModeIcon} alt = "lightModeIcon" className = "w-[100%] h-[100%] object-contain" />
+            ) : (
+                <img src = {darkModeIcon} alt = "darkModeIcon" className = "w-[100%] h-[100%] object-contain" />
+            )}
+        </button >
     );
 };
 
