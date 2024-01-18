@@ -17,3 +17,5 @@ export {
     Competence,
     Projects,
 };
+
+//Used so that we can import all the component for the page in one line
