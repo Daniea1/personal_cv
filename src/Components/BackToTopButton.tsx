@@ -23,7 +23,7 @@ export const BackToTopButton = () => {
     };
 
     return (
-        <div className="fixed bottom-4 right-4">
+        <div className="fixed bottom-4 left-4">
             {backToTop && (
                 <button onClick={scrollUp}
                 className={`rounded-full ${customColor.buttonGradientBlue} h-[40px] w-[40px]
