@@ -112,19 +112,19 @@ export const socialMediaDark = [
 export const AccordionData = [
     {
         title: 'Java',
-        text: 'Jeg har igennem mit studie erfaring med at arbejde med Java, et objektorienteret programmerings-sprog designet til at opbygge skalerbare og pålidelige applikationer.',
+        text: 'Jeg er igennem mit studie blevet fortrolig med at arbejde med Java, et objektorienteret programmerings-sprog designet til at opbygge skalerbare og pålidelige applikationer.',
     },
     {
         title: 'HTML & CSS',
-        text: 'Jeg har igennem mit studie blevet fortrolig med HTML (Hypertext Markup Language) og CSS (Cascading Style Sheets), og bruger dem til at skabe visuelt tiltalende websider.',
+        text: 'Jeg er igennem mit studie blevet fortrolig med at arbejde med HTML og CSS til at skabe visuelt tiltalende websider.',
     },
     {
         title: 'JavaScript & TypeScript',
-        text: 'Jeg har igennem mit studie erfaring med JavaScript og TypeScript og at udnytte deres evner til at skabe dynamiske og robuste webapplikationer.',
+        text: 'Jeg er igennem mit studie blevet fortrolig med at arbejde med JavaScript og TypeScript  til at skabe dynamiske og robuste webapplikationer.',
     },
     {
         title: 'React',
-        text: 'Jeg har i min egen fritid lært at kode i i React, et JavaScript bibliotek til opbygning af bruger-grænseflader. Jeg har bl.a. anvendt React til at udvikle et responsive og interaktive single-page hjemmeside (denne hjemmeside).',
+        text: 'Jeg har i min egen fritid lært at kode i React, et JavaScript bibliotek til opbygning af bruger-grænseflader. Jeg har bl.a. anvendt React til at udvikle et responsive og interaktive single-page hjemmeside (denne hjemmeside).',
     },
     {
         title: 'MongoDB',
@@ -136,7 +136,7 @@ export const AccordionData = [
     },
     {
         title: 'Firebase',
-        text: 'Jeg har i min egen fritid blevet fortrolig med Firebase, en platform udviklet af Google til at skabe mobile og webapplikationer. Jeg har brugt Firebase til forskellige funktioner som login gennem google konto, database og hosting.',
+        text: 'Jeg har i min egen fritid blevet fortrolig med Firebase, en platform udviklet af Google til at skabe mobile og webapplikationer. Jeg har brugt Firebase til forskellige features som login gennem google konto og database.',
     },
 ];
 
