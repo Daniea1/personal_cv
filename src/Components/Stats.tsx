@@ -12,7 +12,7 @@ const Stats = () => (
             justify-center items-center flex-row m-3`}>
                 <h4 className="font-poppins
                 font-semibold xs:text-[40px] text-[40px] xs:leading-[53px]
-                 leading[43px] text-white">
+                 leading[43px] text-white dark:text-black">
                     {stat.value}
                 </h4>
                 <p className={`text-center font-poppins

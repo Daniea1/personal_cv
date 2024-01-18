@@ -5,7 +5,9 @@ import {
     send,
     shield,
     star,
-    personalWebsite
+    personalWebsite,
+    instagramDark,
+    facebookDark, linkedinDark,
 } from "../assets";
 
 export const navLinks = [
@@ -89,6 +91,23 @@ export const socialMedia = [
         link: "https://www.linkedin.com/in/danieal-johnbaskar",
     },
 ];
+export const socialMediaDark = [
+    {
+        id: "social-media-1",
+        icon: facebookDark,
+        link: "https://www.facebook.com/profile.php?id=100004485585330",
+    },
+    {
+        id: "social-media-2",
+        icon: instagramDark,
+        link: "https://www.instagram.com/danieal__j/",
+    },
+    {
+        id: "social-media-3",
+        icon: linkedinDark,
+        link: "https://www.linkedin.com/in/danieal-johnbaskar",
+    },
+];
 
 export const AccordionData = [
     {
@@ -127,6 +146,6 @@ export const ProjectData = [
         projectPicture: personalWebsite,
         title: 'Personlig hjemmeside',
         description: "Min egen hjemmeside brugt til at fremvise mine projekter og færdigheder.",
-        kildeKode:"https://github.com/Daniea1/personal_cv",
+        kildeKode: "https://github.com/Daniea1/personal_cv",
     },
 ];

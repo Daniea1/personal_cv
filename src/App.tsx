@@ -4,21 +4,21 @@ import {Navbar, Business, ContactFormular, Stats, Footer, FrontPage, Competence,
 
 function App() {
     return (
-        <div className = "bg-black w-full overflow-hidden" >
+        <div className = "bg-black dark:bg-white w-full overflow-hidden" >
             <div className = {`${styles.paddingX} ${styles.flexCenter}`} >
                 <div className = {`${styles.boxWidth}`} >
                     <Navbar />
                 </div >
             </div >
 
-            <div className = {`bg-black ${styles.flexStart}`} >
-                <div className = {`bg-black ${styles.boxWidth}`} >
+            <div className = {`bg-black dark:bg-white ${styles.flexStart}`} >
+                <div className = {`bg-black dark:bg-white ${styles.boxWidth}`} >
                     <FrontPage />
                 </div >
             </div >
 
-            <div className = {`bg-black ${styles.paddingX} ${styles.flexStart}`} >
-                <div className = {`bg-black ${styles.boxWidth}`} >
+            <div className = {`bg-black dark:bg-white ${styles.paddingX} ${styles.flexStart}`} >
+                <div className = {`bg-black dark:bg-white ${styles.boxWidth}`} >
                     <Stats />
                     <Competence/>
                     <Business />

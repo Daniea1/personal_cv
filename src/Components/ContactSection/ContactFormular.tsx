@@ -68,13 +68,13 @@ const ContactFormular = () => {
         <section
             id = "Kontakt"
             className = {`${styles.flexCenter} ${styles.marginY} ${styles.padding}
-             sm:flex-row flex-col ${customColor.cardsBackground} rounded-[20px] box-shadow`} >
+             sm:flex-row flex-col ${customColor.gradientGrey} rounded-[20px] box-shadow`} >
             <div className = "flex-1 flex flex-col" >
                 <h2 className = {styles.heading2} >Kontakt mig</h2 >
                 <p className = {`${styles.paragraph} max-w-[470px] mt-5`} >
                     Du kan kontakte mig ved at sende en e-mail til:
                 </p >
-                <address className = "text-white" >danieal3@hotmail.com</address >
+                <address className = "text-white dark:text-black" >danieal3@hotmail.com</address >
             </div >
 
             <form
@@ -84,7 +84,7 @@ const ContactFormular = () => {
                 <div className = "mb-4" >
                     <label
                         htmlFor = "name"
-                        className = "block text-sm font-medium text-white"
+                        className = "block text-sm font-medium text-white dark:text-black"
                     >
                         Navn:
                     </label >
@@ -104,7 +104,7 @@ const ContactFormular = () => {
                 <div className = "mb-4" >
                     <label
                         htmlFor = "email"
-                        className = "block text-sm font-medium text-white"
+                        className = "block text-sm font-medium text-white dark:text-black"
                     >
                         E-mail:
                     </label >
@@ -124,7 +124,7 @@ const ContactFormular = () => {
                 <div className = "mb-4" >
                     <label
                         htmlFor = "message"
-                        className = "block text-sm font-medium text-white"
+                        className = "block text-sm font-medium text-white dark:text-black"
                     >
                         Besked:
                     </label >

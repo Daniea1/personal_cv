@@ -15,14 +15,14 @@ const Accordion = () => {
                 <div key={index} className="col-span-1">
                     <div className={`px-5 py-6 rounded-[20px] w-[150px] h-[150px]
                     lg:px-5 lg:py-12 lg:w-[270px] lg:h-[270px] grid justify-items-center
-                     ${customColor.cardsBackground}`} onClick={() => handleClick(index)}>
+                     ${customColor.gradientGrey}`} onClick={() => handleClick(index)}>
                         <div className="flex items-center justify-between cursor-pointer" >
-                            <h2 className={`text-lg font-semibold ${customColor.gradientBlue}`}>
+                            <h2 className={`text-lg font-semibold ${customColor.gradientBlue} dark:bg-gradient-to-r from-rose-100 to-teal-100`}>
                                 {item.title}
                             </h2>
                         </div>
                         {activeIndex === index && (
-                            <div className="mt-2 text-white max-h-32 overflow-y-auto">
+                            <div className="mt-2 text-white dark:text-black max-h-32 overflow-y-auto">
                                 {item.text}
                             </div>
                         )}
