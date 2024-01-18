@@ -17,7 +17,7 @@ const Accordion = () => {
                     lg:px-5 lg:py-12 lg:w-[270px] lg:h-[270px] grid justify-items-center
                      ${customColor.gradientGrey}`} onClick={() => handleClick(index)}>
                         <div className="flex items-center justify-between cursor-pointer" >
-                            <h2 className={`text-lg font-semibold ${customColor.gradientBlue} dark:bg-gradient-to-r from-rose-100 to-teal-100`}>
+                            <h2 className={`text-lg font-semibold ${customColor.gradientBlue} dark:bg-gradient-to-r dark:from-rose-100 dark:to-teal-100`}>
                                 {item.title}
                             </h2>
                         </div>
