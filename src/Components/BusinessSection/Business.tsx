@@ -6,7 +6,16 @@ import FeatureCard from "./FeatureCard";
 const Business = () => {
 
     const scrollToContactFormular = () => {
-        window.location.href = "#Kontakt";
+        // Find the element with the id "Kontakt"
+        const kontaktElement = document.getElementById("Kontakt");
+
+        // Check if the element is found
+        if (kontaktElement) {
+            kontaktElement.scrollIntoView({
+                behavior: "smooth",
+                block: "start", // You can change this to "center" or "end" based on your preference
+            });
+        }
     };
 
     return (
