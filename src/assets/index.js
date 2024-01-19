@@ -30,6 +30,7 @@ import HtmlCssLogo from "./HtmlCssLogo.png"
 import typeScriptLogo from "./typeScriptLogo.png"
 import mongoDBLogo from "./mongoDBLogo.png"
 import postgressLogo from "./postgressLogo.png"
+import fireBaseLogo from "./fireBaseLogo.png"
 
 export {
     quotes,
@@ -64,5 +65,6 @@ export {
     typeScriptLogo,
     mongoDBLogo,
     postgressLogo,
+    fireBaseLogo,
 
 };

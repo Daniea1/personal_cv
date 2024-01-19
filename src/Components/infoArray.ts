@@ -1,6 +1,21 @@
 import {
-    facebook, instagram, linkedin, send, shield, star, personalWebsite, instagramDark,
-    facebookDark, linkedinDark, javaLogo, reactLogo, HtmlCssLogo, typeScriptLogo, mongoDBLogo, postgressLogo,
+    facebook,
+    instagram,
+    linkedin,
+    send,
+    shield,
+    star,
+    personalWebsite,
+    instagramDark,
+    facebookDark,
+    linkedinDark,
+    javaLogo,
+    reactLogo,
+    HtmlCssLogo,
+    typeScriptLogo,
+    mongoDBLogo,
+    postgressLogo,
+    fireBaseLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -134,7 +149,7 @@ export const accordionData = [
         text: 'Jeg har igennem mit studie arbejdet med PostgreSQL, et  open-source relationsdatabase system. Jeg har anvendt det til at designe og administrere relationelle databaser til forskellige projekter her på universitet.',
     },
     {
-        icon: javaLogo,
+        icon: fireBaseLogo,
         title: 'Firebase',
         text: 'Jeg har i min egen fritid blevet fortrolig med Firebase, en platform udviklet af Google til at skabe mobile og webapplikationer. Jeg har brugt Firebase til forskellige features som login gennem google konto og database.',
     },
