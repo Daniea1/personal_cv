@@ -1,13 +1,6 @@
 import {
-    facebook,
-    instagram,
-    linkedin,
-    send,
-    shield,
-    star,
-    personalWebsite,
-    instagramDark,
-    facebookDark, linkedinDark,
+    facebook, instagram, linkedin, send, shield, star, personalWebsite, instagramDark,
+    facebookDark, linkedinDark, javaLogo, reactLogo, HtmlCssLogo, typeScriptLogo, mongoDBLogo, postgressLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -111,30 +104,37 @@ export const socialMediaDark = [
 
 export const accordionData = [
     {
+        icon: javaLogo,
         title: 'Java',
         text: 'Jeg er igennem mit studie blevet fortrolig med at arbejde med Java, et objektorienteret programmerings-sprog designet til at opbygge skalerbare og pålidelige applikationer.',
     },
     {
+        icon: HtmlCssLogo,
         title: 'HTML & CSS',
         text: 'Jeg er igennem mit studie blevet fortrolig med at arbejde med HTML og CSS til at skabe visuelt tiltalende websider.',
     },
     {
+        icon: typeScriptLogo,
         title: 'JavaScript & TypeScript',
         text: 'Jeg er igennem mit studie blevet fortrolig med at arbejde med JavaScript og TypeScript  til at skabe dynamiske og robuste webapplikationer.',
     },
     {
+        icon: reactLogo,
         title: 'React',
         text: 'Jeg har i min egen fritid lært at kode i React, et JavaScript bibliotek til opbygning af bruger-grænseflader. Jeg har bl.a. anvendt React til at udvikle et responsive og interaktive single-page hjemmeside (denne hjemmeside).',
     },
     {
+        icon: mongoDBLogo,
         title: 'MongoDB',
         text: 'Jeg har igennem mit studie arbejdet med MongoDB, et NoSQL-databaseprogram. Jeg har anvendt det til at designe og administrere document-based databaser til forskellige projekter her på universitet.',
     },
     {
+        icon: postgressLogo,
         title: 'PostgreSQL',
         text: 'Jeg har igennem mit studie arbejdet med PostgreSQL, et  open-source relationsdatabase system. Jeg har anvendt det til at designe og administrere relationelle databaser til forskellige projekter her på universitet.',
     },
     {
+        icon: javaLogo,
         title: 'Firebase',
         text: 'Jeg har i min egen fritid blevet fortrolig med Firebase, en platform udviklet af Google til at skabe mobile og webapplikationer. Jeg har brugt Firebase til forskellige features som login gennem google konto og database.',
     },

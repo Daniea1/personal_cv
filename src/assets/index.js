@@ -22,6 +22,12 @@ import reverseSidebarArrow from "./reverseSidebarArrow.png"
 import darkModeIcon from "./darkModeIcon.png"
 import lightModeIcon from "./lightModeIcon.png"
 import mailIcon from "./mailIcon.png"
+import javaLogo from "./javaLogo.png"
+import reactLogo from "./reactLogo.png"
+import HtmlCssLogo from "./HtmlCssLogo.png"
+import typeScriptLogo from "./typeScriptLogo.png"
+import mongoDBLogo from "./mongoDBLogo.png"
+import postgressLogo from "./postgressLogo.png"
 
 export {
     quotes,
@@ -47,5 +53,12 @@ export {
     darkModeIcon,
     lightModeIcon,
     reverseSidebarArrow,
-    mailIcon
+    mailIcon,
+    javaLogo,
+    reactLogo,
+    HtmlCssLogo,
+    typeScriptLogo,
+    mongoDBLogo,
+    postgressLogo,
+
 };
