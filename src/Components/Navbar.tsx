@@ -1,5 +1,4 @@
-import React from 'react';
-import {useState} from "react";
+import React, {useEffect, useState} from 'react';
 import {close, closeDark, DJLogoDark, menu, menuDark, DJLogo} from '../assets';
 import {navLinks} from "./infoArray";
 import ThemeSwitcher from "./ThemeSwitcher";
@@ -7,11 +6,23 @@ import {customColor} from "../style";
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
+    const [isBlurry, setIsBlurry] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 1 && window.scrollY < 2778) {
+                setIsBlurry(true)
+            } else {
+                setIsBlurry(false)
+            }
+        })
+    }, []);
 
     return (
 
         //logo in navbar
-        <nav className = "w-full flex py-6 justify-between items-center navbar" >
+        <nav className={`flex py-6 justify-between items-center max-h-[65px] xl:px-[160px] md:px-[80px]
+             ${isBlurry ? 'bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 border-b border-b-gray-700 dark:border-b-gray-200' : ''}`}>
             <div className = "block dark:hidden" >
                 <img src = {DJLogo} alt = "DJLogo" className = "sm:w-[200px] lg:w-[250px] h-[62px]" />
             </div >

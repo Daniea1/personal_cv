@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import styles, {customColor} from "../style";
-import {backToTopArrow} from "../assets";
+import {backToTopArrow, backToTopArrowDark} from "../assets";
 
 export const BackToTopButton = () => {
     const [backToTop, setBackToTop] = useState(false);
@@ -26,10 +26,13 @@ export const BackToTopButton = () => {
         <div className="fixed bottom-4 left-4">
             {backToTop && (
                 <button onClick={scrollUp}
-                className={`rounded-full ${customColor.buttonGradientBlue} h-[40px] w-[40px]
+                className={`rounded-full g-white backdrop-filter backdrop-blur-lg bg-opacity-5
+                             border border-gray-700 dark:border-gray-200 h-[40px] w-[40px]
                  text-white text-2xl ${styles.flexCenter}`} >
                     <img src = {backToTopArrow} alt = "backToTopButtonArrow"
-                         className = "w-[50%] h-[50%] object-contain" />
+                         className = "block dark:hidden w-[50%] h-[50%] object-contain" />
+                    <img src = {backToTopArrowDark} alt = "backToTopArrowDark"
+                         className = "hidden dark:block w-[50%] h-[50%] object-contain" />
                 </button >
             )}
         </div >

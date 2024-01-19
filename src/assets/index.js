@@ -17,11 +17,13 @@ import personalWebsite from "./personalWebiste.png";
 import closeDark from "./closeDark.png";
 import menuDark from "./menuDark.png";
 import backToTopArrow from "./backToTopArrow.png"
+import backToTopArrowDark from "./backToTopArrowDark.png"
 import sidebarArrow from "./sidebarArrow.png"
 import reverseSidebarArrow from "./reverseSidebarArrow.png"
 import darkModeIcon from "./darkModeIcon.png"
 import lightModeIcon from "./lightModeIcon.png"
 import mailIcon from "./mailIcon.png"
+import mailIconDark from "./mailIconDark.png"
 import javaLogo from "./javaLogo.png"
 import reactLogo from "./reactLogo.png"
 import HtmlCssLogo from "./HtmlCssLogo.png"
@@ -49,11 +51,13 @@ export {
     DJLogoDark,
     personalWebsite,
     backToTopArrow,
+    backToTopArrowDark,
     sidebarArrow,
     darkModeIcon,
     lightModeIcon,
     reverseSidebarArrow,
     mailIcon,
+    mailIconDark,
     javaLogo,
     reactLogo,
     HtmlCssLogo,

@@ -49,7 +49,3 @@ const Accordion = () => {
 };
 
 export default Accordion;
-
-//notes for future development
-//you can add icons to the accordions
-//and  use 'useState' to remove the icon onClick
