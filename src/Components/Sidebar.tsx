@@ -50,8 +50,6 @@ export const Sidebar = () => {
                         mx-4 my-2 min-w-[100px] rounded-xl`}>
 
                             {/*The different elements inside the sidebar*/}
-                            <ThemeSwitcher />
-
                             <div className = {`flex flex-col ${styles.flexCenter} gap-4 my-4`} >
                                 {sidebar.map((sidebar) => (
                                     <img
