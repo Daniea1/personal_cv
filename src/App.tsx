@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style';
-import {Navbar, Business, ContactFormular, Stats, Footer, FrontPage, Competence, Projects} from "./Components";
+import {Navbar, Business, ContactFormular, Stats, Footer, HeroPage, Competence, Projects} from "./Components";
 import BackToTopButton from "./Components/BackToTopButton";
 import Sidebar from "./Components/Sidebar";
 
@@ -15,7 +15,7 @@ function App() {
 
             <div className = {`bg-black dark:bg-white ${styles.flexStart} mt-[50px]`} >
                 <div className = {`bg-black dark:bg-white ${styles.boxWidth}`} >
-                    <FrontPage />
+                    <HeroPage />
                 </div >
             </div >
 

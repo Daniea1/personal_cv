@@ -15,7 +15,7 @@ import {
     typeScriptLogo,
     mongoDBLogo,
     postgressLogo,
-    fireBaseLogo,
+    fireBaseLogo, pythonLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -122,6 +122,12 @@ export const accordionData = [
         icon: javaLogo,
         title: 'Java',
         text: 'Jeg er igennem mit studie blevet fortrolig med at arbejde med Java, et objektorienteret programmerings-sprog designet til at opbygge skalerbare og pålidelige applikationer.',
+    },
+    {
+        icon: pythonLogo,
+        title: 'Python',
+        text: 'Jeg er igennem mit studie blevet fortrolig med at arbejde med Python. Python er et alsidigt, højniveau programmeringssprog kendt for dets læsbarhed og brugervenlighed, hvilket gør det velegnet til forskellige anvendelser.',
+
     },
     {
         icon: HtmlCssLogo,
