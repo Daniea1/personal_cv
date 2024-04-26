@@ -1,6 +1,6 @@
 import React from "react";
-import styles, {customColor} from "../style";
-import {robot} from "../assets";
+import styles, {customColor} from "../../style";
+import {robot} from "../../assets";
 
 const HeroPage = () => {
 

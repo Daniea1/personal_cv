@@ -1,6 +1,6 @@
 import React from 'react';
-import {stats} from './infoArray';
-import styles, {customColor} from "../style";
+import {stats} from '../infoArray';
+import styles, {customColor} from "../../style";
 
 
 const Stats = () => (

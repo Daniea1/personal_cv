@@ -1,9 +1,9 @@
 import Navbar from "./Navbar";
 import Business from "./BusinessSection/Business";
 import ContactFormular from "./ContactSection/ContactFormular";
-import Stats from "./Stats";
+import Stats from "./HeroSection/Stats";
 import Footer from "./Footer";
-import HeroPage from "./HeroPage";
+import HeroPage from "./HeroSection/HeroPage";
 import Competence from "./CompetenceSection/Competence";
 import Projects from "./ProjectsSection/Projects";
 
