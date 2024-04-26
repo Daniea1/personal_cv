@@ -16,7 +16,7 @@ import DJLogoDark from "./DJLogoDark.png"
 import personalWebsite from "./personalWebiste.png";
 import closeDark from "./closeDark.png";
 import menuDark from "./menuDark.png";
-// import backToTopArrow from "./backToTopArrow.png"
+import backToTopArrow from "./BackToTopArrow.png"
 import backToTopArrowDark from "./backToTopArrowDark.png"
 import sidebarArrow from "./sidebarArrow.png"
 import reverseSidebarArrow from "./reverseSidebarArrow.png"
@@ -52,7 +52,7 @@ export {
     DJLogo,
     DJLogoDark,
     personalWebsite,
-    // backToTopArrow,
+    backToTopArrow,
     backToTopArrowDark,
     sidebarArrow,
     darkModeIcon,
