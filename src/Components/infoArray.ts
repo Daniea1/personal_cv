@@ -15,7 +15,7 @@ import {
     typeScriptLogo,
     mongoDBLogo,
     postgressLogo,
-    fireBaseLogo,
+    JavascriptLogo,
     pythonLogo,
 } from "../assets";
 
@@ -161,7 +161,7 @@ export const accordionData = [
         text: 'Jeg har igennem mit studie arbejdet med PostgreSQL, et  open-source relationsdatabase system. Jeg har anvendt det til at designe og administrere relationelle databaser til forskellige projekter her på universitet.',
     },
     {
-        icon: fireBaseLogo,
+        icon: JavascriptLogo,
         title: 'Firebase',
         text: 'Jeg har i min egen fritid blevet fortrolig med Firebase, en platform udviklet af Google til at skabe mobile og webapplikationer. Jeg har brugt Firebase til forskellige features som login gennem google konto og database.',
     },

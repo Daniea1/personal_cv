@@ -36,7 +36,7 @@ import mongoDBLogo from "./mongoDBLogo.png"
 // import mongoDBLogoDark from "./mongoDBLogoDark.png"
 import postgressLogo from "./postgressLogo.png"
 // import postgressLogoDark from "./postgressLogoDark.png"
-import fireBaseLogo from "./fireBaseLogo.png"
+import JavascriptLogo from "./javascriptLogo.png"
 // import fireBaseLogoDark from "./fireBaseLogoDark.png"
 import pythonLogo from "./pythonLogo.png"
 // import pythonLogoDark from "./pythonLogoDark.png"
@@ -75,7 +75,7 @@ export {
     typeScriptLogo,
     mongoDBLogo,
     postgressLogo,
-    fireBaseLogo,
+    JavascriptLogo,
     pythonLogo,
     ProfilePicOne,
     // HtmlCssLogoDark,
