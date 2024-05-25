@@ -67,18 +67,23 @@ export const reasons = [
 export const stats = [
     {
         id: "stats-1",
-        title: "Antal Træninger I fitness i år",
+        title: "Træninger I fitness i år",
         value: "97+",
     },
     {
         id: "stats-2",
-        title: "Antal Bøger Læst",
+        title: "Bøger Læst",
         value: "12+",
     },
     {
         id: "stats-3",
+        title: "Kilometer løbt",
+        value: "58+",
+    },
+    {
+        id: "stats-4",
         title: "Timer brugt på at finde et ';'",
-        value: "Infinite",
+        value: "∞",
     },
 ];
 
