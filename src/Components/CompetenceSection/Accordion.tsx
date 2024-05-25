@@ -1,6 +1,7 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { accordionData } from "../infoArray";
-import styles, { customColor } from "../../style";
+import styles from "../../style";
 
 const Accordion = () => {
     return (
@@ -8,11 +9,13 @@ const Accordion = () => {
             {accordionData.map((item, index) => (
                 <div key={index} className="col-span-1">
                     <div className={`px-5 py-6 rounded-[20px] w-[75px] h-[75px] lg:px-5 lg:py-12 lg:w-[135px] lg:h-[135px] grid justify-items-center`}>
-                        <div className="flex items-center justify-center cursor-pointer">
-                            <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}`}>
-                                <img src={item.icon} alt="icon" className="w-[100%] h-[100%] object-contain" />
+                        <motion.div whileHover={{ scale: 1.5 }}>
+                            <div className="flex items-center justify-center cursor-pointer">
+                                <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}`}>
+                                    <img src={item.icon} alt="icon" className="w-[100%] h-[100%] object-contain" />
+                                </div>
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             ))}

@@ -68,7 +68,7 @@ export const reasons = [
 export const stats = [
     {
         id: "stats-1",
-        title: "Træninger I fitness i år",
+        title: "Træninger I fitness",
         value: "97+",
     },
     {
@@ -83,7 +83,7 @@ export const stats = [
     },
     {
         id: "stats-4",
-        title: "Timer brugt på finde ';'",
+        title: "Timer brugt på bugs",
         value: "∞",
     },
 ];

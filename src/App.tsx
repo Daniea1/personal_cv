@@ -18,7 +18,7 @@ function App() {
             </div >
 
             <div className="relative z-1">
-                <div className="absolute top-[-100px] w-full">
+                <div className="absolute top-[-80px] w-full">
                     <Stats />
                 </div>
             </div>
