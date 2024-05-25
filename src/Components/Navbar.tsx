@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {close, closeDark, DJLogoDark, menu, menuDark, DJLogo} from '../assets';
+import {close, closeDark, menu, menuDark} from '../assets';
 import {navLinks} from "./infoArray";
 import ThemeSwitcher from "./ThemeSwitcher";
 import {customColor} from "../style";
@@ -10,7 +10,8 @@ const Navbar = () => {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            if (window.scrollY > 1 && window.scrollY < 2778) {
+            // if (window.scrollY > 1 && window.scrollY < 2778) {
+            if (window.scrollY > 1 ) {
                 setIsBlurry(true)
             } else {
                 setIsBlurry(false)
@@ -21,17 +22,11 @@ const Navbar = () => {
     return (
 
         //logo in navbar
-        <nav className={`flex py-6 justify-between items-center max-h-[65px] xl:px-[160px] md:px-[80px]
-             ${isBlurry ? 'bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 border-b border-b-gray-700 dark:border-b-gray-200' : ''}`}>
-            <div className = "block dark:hidden" >
-                <img src = {DJLogo} alt = "DJLogo" className = "sm:w-[200px] lg:w-[250px] h-[62px]" />
-            </div >
-            <div className = "hidden dark:block" >
-                <img src = {DJLogoDark} alt = "DJLogo" className = "sm:w-[200px] lg:w-[250px] h-[62px]" />
-            </div >
+        <nav className={`fixed top-5 z-10 flex py-0 max-h-[65px] w-fit xl:px-[20px] l:px-[20px] md:px-[20px] px-[20px] rounded-full
+             ${isBlurry ? 'bg-white backdrop-filter backdrop-blur-lg bg-opacity-5' : ''}`}>
 
             {/*The responsive menu large screen*/}
-            <ul className = "list-none, sm:flex hidden justify-end items-center flex-1" >
+            <ul className = "list-none, sm:flex hidden justify-center items-center flex-1" >
                 {navLinks.map((nav) => (
                     <li key = {nav.id}
                         className = {`font-poppins font-normal cursor-pointer hover:bg-gray-700
@@ -92,9 +87,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-//notes for future development
-//You can use the principles of the scrollToTopButton
-//and making the navbar backround blurry and add the shadow at the button
-//as well as giving it a fixed postition at the top

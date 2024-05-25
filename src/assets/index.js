@@ -32,6 +32,7 @@ import mongoDBLogo from "./mongoDBLogo.png"
 import postgressLogo from "./postgressLogo.png"
 import fireBaseLogo from "./fireBaseLogo.png"
 import pythonLogo from "./pythonLogo.png"
+import ProfilePicOne from "./ProfilePicOne.png"
 
 export {
     quotes,
@@ -68,4 +69,5 @@ export {
     postgressLogo,
     fireBaseLogo,
     pythonLogo,
+    ProfilePicOne,
 };

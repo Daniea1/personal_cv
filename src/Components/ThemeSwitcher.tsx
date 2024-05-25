@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import {customColor} from "../style";
 import {darkModeIcon, lightModeIcon} from "../assets";
 
 const ThemeSwitcher = () => {
@@ -30,7 +29,6 @@ const ThemeSwitcher = () => {
         <button
             onClick = {toggleDarkMode}
             className = {`px-4 py-2 rounded-full w-[50px] h-[50px]
-             ${darkMode ? `${customColor.gradientGrey}` : 'bg-gray-800'}
                transition-colors duration-200`}
         >
             {darkMode ? (

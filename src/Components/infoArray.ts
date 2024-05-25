@@ -68,12 +68,12 @@ export const stats = [
     {
         id: "stats-1",
         title: "Antal Træninger I fitness i år",
-        value: "220+",
+        value: "97+",
     },
     {
         id: "stats-2",
         title: "Antal Bøger Læst",
-        value: "11+",
+        value: "12+",
     },
     {
         id: "stats-3",

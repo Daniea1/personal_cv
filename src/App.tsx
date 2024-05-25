@@ -8,9 +8,7 @@ function App() {
     return (
         <div className = "bg-black dark:bg-white w-full overflow-hidden" >
             <div className = {`${styles.paddingX} ${styles.flexCenter}`} >
-                <div className = {`fixed top-0 w-full z-10`} >
                     <Navbar />
-                </div >
             </div >
 
             <div className = {`bg-black dark:bg-white ${styles.flexStart} mt-[50px]`} >
