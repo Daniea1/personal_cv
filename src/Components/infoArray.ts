@@ -72,17 +72,17 @@ export const stats = [
     },
     {
         id: "stats-2",
-        title: "Bøger Læst",
-        value: "12+",
-    },
-    {
-        id: "stats-3",
         title: "Kilometer løbt",
         value: "58+",
     },
     {
+        id: "stats-3",
+        title: "Bøger Læst",
+        value: "12+",
+    },
+    {
         id: "stats-4",
-        title: "Timer brugt på at finde et ';'",
+        title: "Timer brugt på finde ';'",
         value: "∞",
     },
 ];
