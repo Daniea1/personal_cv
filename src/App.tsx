@@ -27,6 +27,11 @@ function App() {
                 <div className = {`bg-black dark:bg-white ${styles.boxWidth}`} >
                     <Competence/>
                     <Business />
+                </div >
+            </div >
+
+            <div className = {`bg-black dark:bg-gray-50 ${styles.paddingX} ${styles.flexStart}`} >
+                <div className = {`bg-black dark:bg-gray-50 ${styles.boxWidth}`} >
                     <Projects/>
                     <ContactFormular />
                     <Footer />

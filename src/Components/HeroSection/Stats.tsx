@@ -7,7 +7,7 @@ const Stats = () => (
     <section className={`${styles.flexCenter} grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 lg:mx-12`}>
         {stats.map((stat) => (
             <div key={stat.id} className="flex justify-center items-center flex-col m-3">
-                <div className={`w-full ${customColor.gradientGreyNoDarkMode} dark:bg-white shadow-lg rounded-lg flex items-center justify-center flex-col h-48 transition-transform transform hover:scale-105 hover:shadow-2xl`}>
+                <div className={`w-full ${customColor.gradientGreyNoDarkMode} shadow-lg rounded-lg flex items-center justify-center flex-col h-48 transition-transform transform hover:scale-105 hover:shadow-2xl`}>
                     <h4 className="font-poppins font-semibold text-[40px] leading-[53px] text-white dark:text-black">
                         {stat.value}
                     </h4>
