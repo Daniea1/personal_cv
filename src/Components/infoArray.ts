@@ -15,7 +15,8 @@ import {
     typeScriptLogo,
     mongoDBLogo,
     postgressLogo,
-    fireBaseLogo, pythonLogo,
+    fireBaseLogo,
+    pythonLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -165,7 +166,6 @@ export const accordionData = [
         text: 'Jeg har i min egen fritid blevet fortrolig med Firebase, en platform udviklet af Google til at skabe mobile og webapplikationer. Jeg har brugt Firebase til forskellige features som login gennem google konto og database.',
     },
 ];
-
 
 export const projectData = [
     {

@@ -25,13 +25,21 @@ import lightModeIcon from "./lightModeIcon.png"
 import mailIcon from "./mailIcon.png"
 import mailIconDark from "./mailIconDark.png"
 import javaLogo from "./javaLogo.png"
+// import javaLogoDark from "./javaLogoDark.png"
 import reactLogo from "./reactLogo.png"
+// import reactLogoDark from "./reactLogoDark.png"
 import HtmlCssLogo from "./HtmlCssLogo.png"
+// import HtmlCssLogoDark from "./HtmlCssLogoDark.png"
 import typeScriptLogo from "./typeScriptLogo.png"
+// import typeScriptLogoDark from "./typeScriptLogoDark.png"
 import mongoDBLogo from "./mongoDBLogo.png"
+// import mongoDBLogoDark from "./mongoDBLogoDark.png"
 import postgressLogo from "./postgressLogo.png"
+// import postgressLogoDark from "./postgressLogoDark.png"
 import fireBaseLogo from "./fireBaseLogo.png"
+// import fireBaseLogoDark from "./fireBaseLogoDark.png"
 import pythonLogo from "./pythonLogo.png"
+// import pythonLogoDark from "./pythonLogoDark.png"
 import ProfilePicOne from "./ProfilePicOne.png"
 
 export {
@@ -70,4 +78,12 @@ export {
     fireBaseLogo,
     pythonLogo,
     ProfilePicOne,
+    // HtmlCssLogoDark,
+    // pythonLogoDark,
+    // javaLogoDark,
+    // reactLogoDark,
+    // typeScriptLogoDark,
+    // mongoDBLogoDark,
+    // postgressLogoDark,
+    // fireBaseLogoDark
 };
