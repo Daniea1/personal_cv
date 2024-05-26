@@ -17,7 +17,11 @@ const Footer = () => (
             </div>
 
             <p className = "font-poppins font-normal text-center text-[18px] leading-[27px] text-white dark:text-black" >
-                Copyright Ⓒ 2024 Danieal Johnbaskar. All Rights Reserved.
+                Copyright Ⓒ 2024 Danieal Johnbaskar.
+                <br/>
+                <span>
+                    All Rights Reserved.
+                </span>
             </p >
 
             <div className = "flex dark:hidden flex-row md:mt-0 mt-6" >
