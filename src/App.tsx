@@ -3,6 +3,7 @@ import styles from './style';
 import {Navbar, Business, ContactFormular, Stats, Footer, HeroPage, Competence, Projects} from "./Components";
 import BackToTopButton from "./Components/BackToTopButton";
 import Sidebar from "./Components/Sidebar";
+import Recommendations from "./Components/RecommendationSection/Recommendations";
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
                 <div className = {`bg-black dark:bg-white ${styles.boxWidth}`} >
                     <Competence/>
                     <Business />
+                    <Recommendations/>
                 </div >
             </div >
 

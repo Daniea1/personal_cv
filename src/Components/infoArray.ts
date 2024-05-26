@@ -83,7 +83,7 @@ export const stats = [
     },
     {
         id: "stats-4",
-        title: "Timer brugt på bugs",
+        title: "Timer på finde bugs",
         value: "∞",
     },
 ];
@@ -193,3 +193,32 @@ export const sidebar = [
         link: "https://www.linkedin.com/in/danieal-johnbaskar",
     },
 ];
+// infoArray.js
+export const recommendationsData = [
+    {
+        id: 1,
+        text: "Jeg har arbejdet sammen med Danieal på flere projekter, og han er altid dedikeret og professionel. " +
+            "Han er også meget pålidelig og tager ansvar for sine opgaver. Jeg kan varmt anbefale ham til enhver.",
+        name: "Peter Larsen",
+        position: "Lektor på Syddansk Universitet (SDU), Odense",
+    },
+    {
+        id: 2,
+        text: " Danieal har en imponerende evne til at løse komplekse problemer og levere resultater til tiden."
+        + "Han er en naturlig leder og har stærke kommunikationsevner. Jeg har nydt at arbejde sammen med ham.",
+        name: "Lise Møller",
+        position: "Butikschef på Netto Grønløkkevej, Odense",
+    },
+    {
+        id: 3,
+        text: "Danieal har vist en enestående evne til at tilpasse sig hurtigt til nye udfordringer og levere " +
+            "høj kvalitet i sit arbejde. Hans positive attitude gør ham til en fornøjelse at arbejde sammen med." +
+            " Jeg kan stærkt anbefale ham.",
+        name: "Klaus Jensen",
+        position: "Lektor på Syddansk Universitet (SDU), Odense",
+    },
+];
+
+
+
+
