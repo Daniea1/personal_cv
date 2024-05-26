@@ -204,7 +204,7 @@ export const recommendationsData = [
     },
     {
         id: 2,
-        text: " Danieal har en imponerende evne til at løse komplekse problemer og levere resultater til tiden."
+        text: " Danieal har en imponerende evne til at løse komplekse problemer og levere resultater til tiden. "
         + "Han er en naturlig leder og har stærke kommunikationsevner. Jeg har nydt at arbejde sammen med ham.",
         name: "Lise Møller",
         position: "Butikschef på Netto Grønløkkevej, Odense",

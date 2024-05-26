@@ -1,6 +1,7 @@
 import React from "react";
 import { recommendationsData } from "../infoArray";
 import { FaStar } from "react-icons/fa";
+import {customColor} from "../../style";
 
 const RecommendationsCard = () => {
     return (
@@ -8,8 +9,8 @@ const RecommendationsCard = () => {
             {recommendationsData.map((item, index) => (
                 <div
                     key={item.id}
-                    className={`col-span-1 p-5 shadow-lg rounded-lg border border-gray-300
-                     transition-transform transform hover:scale-105 hover:shadow-2xl bg-white
+                    className={`col-span-1 p-5 shadow-lg rounded-lg dark:border-none border-[1px] border-gray-800
+                     transition-transform transform hover:scale-105 hover:shadow-2xl dark:bg-white
                      sm:h-[284px] md:h-[384px] ${index === 1 ? 'xl:h-[468px]' : 'xl:h-[400px]'} flex flex-col justify-between`}
                 >
                     <div>
@@ -18,12 +19,12 @@ const RecommendationsCard = () => {
                                 <FaStar key={i} className="text-yellow-400 text-2xl" />
                             ))}
                         </div>
-                        <div className="text-center text-gray-700 mb-8">
+                        <div className="text-center mb-8 text-white dark:text-black">
                             {item.text}
                         </div>
                     </div>
                     <div className="mb-4">
-                        <div className="text-center font-semibold text-gray-900">
+                        <div className={`text-center font-semibold ${customColor.gradientBlue} dark:text-black`}>
                             {item.name}
                         </div>
                         <div className="text-center text-gray-500">
