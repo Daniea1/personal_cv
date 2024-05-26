@@ -1,5 +1,4 @@
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -44,7 +43,6 @@ import ProfilePicOne from "./ProfilePicOne.png"
 
 export {
     quotes,
-    robot,
     send,
     shield,
     star,

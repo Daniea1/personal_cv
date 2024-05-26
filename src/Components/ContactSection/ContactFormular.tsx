@@ -68,7 +68,7 @@ const ContactFormular = () => {
         <section
             id = "Kontakt"
             className = {`${styles.flexCenter} ${styles.marginY} ${styles.padding}
-             sm:flex-row flex-col ${customColor.gradientGreyNoDarkMode} shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-2xl`} >
+             sm:flex-row flex-col  shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-2xl`} >
             <div className = "flex-1 flex flex-col" >
                 <h2 className = {styles.heading2} >Kontakt mig</h2 >
                 <p className = {`${styles.paragraph} max-w-[470px] mt-5`} >

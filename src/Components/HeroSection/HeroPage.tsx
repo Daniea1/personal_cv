@@ -11,9 +11,10 @@ const HeroPage = () => {
                 <motion.img src={ProfilePicOne} alt="ProfilePicOne" className="w-[60%] sm:w-[60%] h-auto rounded-full object-cover" />
             </div>
 
+            {/* The banner*/}
             <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 order-2 md:order-1 ${styles.flexCenter} md:${styles.flexStart}`}>
                 <motion.div className={`flex flex-row items-center py-[6px] px-4 ${customColor.gradientGrey} rounded-[10px] mb-2 text-white`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2, duration: 0.5 }}>
-                    <p className={`${styles.paragraph} ml-2 text-center md:text-left`}>
+                    <p className={`${styles.paragraph} ml-6 text-center md:text-left`}>
                         <span className="text-white">4th semester Software engineering Student at SDU</span>
                     </p>
                 </motion.div>
