@@ -6,7 +6,7 @@ const FeatureCard = ({icon, title, content, index}: { icon: string; title: strin
     <div className = {`flex flex-row p-6 rounded-[20px] 
     ${index !== reasons.length - 1 ? "mb-6" : "mb-9"} ${customColor.cardHover}`} >
         {/*For future references when needing to fit picture inside element*/}
-        <div className = {`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-blue-950`} >
+        <div className = {`w-[64px] h-[64px] rounded-full ${styles.flexCenter}`} >
             <img src = {icon} alt = "icon" className = "w-[50%] h-[50%] object-contain" />
         </div >
         <div className = "flex-1 flex flex-col ml-3" >
