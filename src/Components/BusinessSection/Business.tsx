@@ -20,7 +20,7 @@ const Business = () => {
 
     return (
         <section id = "" className = {`${layout.section}`} >
-            <div className = {`${layout.sectionInfo}`} >
+            <div className = {`flex-1 flex justify-center items-center md:items-start flex-col`} >
                 <h2 className = {`${styles.heading2}`} >
                     3 årsager til, <br className = "sm:block hidden" /> at du bør ansætte mig.
                 </h2 >

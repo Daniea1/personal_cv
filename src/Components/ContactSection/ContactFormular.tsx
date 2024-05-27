@@ -74,7 +74,7 @@ const ContactFormular = () => {
                 <p className = {`${styles.paragraph} max-w-[470px] mt-5`} >
                     Du kan kontakte mig ved at sende en e-mail til:
                 </p >
-                <address className = "text-white dark:text-black" >danieal3@hotmail.com</address >
+                <address className = "text-white dark:text-black text-center md:text-start" >danieal3@hotmail.com</address >
             </div >
 
             <form
