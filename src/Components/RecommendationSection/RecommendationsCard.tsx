@@ -11,7 +11,7 @@ const RecommendationsCard = () => {
                     key={item.id}
                     className={`col-span-1 p-5 shadow-lg rounded-lg dark:border-none border-[1px] border-gray-800
                      transition-transform transform hover:scale-105 hover:shadow-2xl dark:bg-white
-                     sm:h-[284px] md:h-[384px] ${index === 1 ? 'xl:h-[550px]' : 'xl:h-[450px]'} flex flex-col justify-between`}
+                     h-fit flex flex-col justify-between`}
                 >
                     <div>
                         <div className="flex justify-center mt-12 mb-3">
@@ -19,7 +19,7 @@ const RecommendationsCard = () => {
                                 <FaStar key={i} className="text-yellow-400 text-2xl" />
                             ))}
                         </div>
-                        <div className="text-center mb-8 text-white dark:text-black">
+                        <div className="text-center mb-8 text-white dark:text-black h-48 overflow-auto">
                             {item.text}
                         </div>
                     </div>
