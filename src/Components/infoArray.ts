@@ -74,7 +74,7 @@ export const stats = [
     {
         id: "stats-2",
         title: "Kilometer løbt",
-        value: "58+",
+        value: "63+",
     },
     {
         id: "stats-3",
@@ -204,10 +204,11 @@ export const recommendationsData = [
     },
     {
         id: 2,
-        text: " Danieal har en imponerende evne til at løse komplekse problemer og levere resultater til tiden. "
-        + "Han er en naturlig leder og har stærke kommunikationsevner. Jeg har nydt at arbejde sammen med ham.",
-        name: "Lise Møller",
-        position: "Butikschef på Netto Grønløkkevej, Odense",
+        text: "Jeg har haft fornøjelsen at kende Danieal Johnbaskar siden september 2022, hvor Danieal startede på uddannelsen til Civilingeniør i Software Engineering, og hvor han deltog i mit kursus i computersystemer.\n" +
+            "Siden har Danieal fungeret som instruktor for efterfølgende studerende i samme fag. Her har Danieal vist sig som faglig kompetent samtidig med, at han har har en god dialog med de yngre studerende. Danieal har været god til at guidet de studerende gennem kursets faglige indhold, ligesom har har sparret med de studernde i personlige og studimæssige forhold.\n" +
+            "Jeg anbefaler gerne Danieal som en seriøs samarbejdspartner.",
+        name: "Morten Hansen",
+        position: "Lektor/Ingeniør, Mærsk Mc-Kinney Møller Instituttet",
     },
     {
         id: 3,
