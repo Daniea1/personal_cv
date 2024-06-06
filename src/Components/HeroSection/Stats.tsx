@@ -12,7 +12,7 @@ const Stats = () => (
                     <h4 className="font-poppins font-semibold text-[40px] leading-[53px] text-white dark:text-black">
                         {stat.value}
                     </h4>
-                    <p className={`text-center font-poppins font-semibold text-[25px] leading-[26px] ${customColor.gradientBlue} uppercase mt-3`}>
+                    <p className={`text-center font-poppins font-semibold text-[22px] leading-[26px] ${customColor.gradientBlue} uppercase mt-3`}>
                         {stat.title}
                     </p>
                 </motion.div>
