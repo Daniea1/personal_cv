@@ -6,7 +6,7 @@ import {customColor} from "../../style";
 const RecommendationsCard = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center justify-center">
-            {recommendationsData.map((item, index) => (
+            {recommendationsData.map((item) => (
                 <div
                     key={item.id}
                     className={`col-span-1 p-5 shadow-lg rounded-lg dark:border-none border-[1px] border-gray-800
@@ -24,7 +24,7 @@ const RecommendationsCard = () => {
                         </div>
                     </div>
                     <div className="mb-4">
-                        <div className={`text-center font-semibold ${customColor.gradientBlue} dark:text-black`}>
+                        <div className={`text-center font-semibold ${customColor.gradientDarkBlueTitleNoDarkMode} dark:text-black`}>
                             {item.name}
                         </div>
                         <div className="text-center text-gray-500">

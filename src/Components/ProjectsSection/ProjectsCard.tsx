@@ -1,6 +1,8 @@
 import React from "react";
 import { projectData } from "../infoArray";
 import { customColor } from "../../style";
+import { motion } from 'framer-motion';
+
 
 const ProjectsCard = () => {
     return (
@@ -13,7 +15,7 @@ const ProjectsCard = () => {
                             <img src={`${item.projectPicture}`} alt={item.title} />
                         </div>
                         <div className="flex items-center justify-between cursor-pointer">
-                            <h2 className={`text-lg font-semibold ${customColor.gradientBlue} dark:text-black`}>
+                            <h2 className={`text-lg font-semibold ${customColor.gradientDarkBlueTitleNoDarkMode} dark:text-black`}>
                                 {item.title}
                             </h2>
                         </div>
@@ -21,14 +23,16 @@ const ProjectsCard = () => {
                             {item.description}
                         </div>
                         <div className="flex items-center mt-2 text-white dark:text-black">
+                            <motion.div whileHover = {{scale: 1.05}} >
                             <button
                                 type="button"
-                                className={`py-2 px-3 ${customColor.buttonGradientBlue} font-poppins font-medium text-[14px] text-white outline-none rounded-xl`}
+                                className={`py-2 px-3 ${customColor.buttonGradientDarkBlue} font-poppins font-medium text-[14px] text-white outline-none rounded-xl`}
                             >
                                 <a href={item.kildeKode} target="_blank" rel="noopener noreferrer">
                                     Kilde kode
                                 </a>
                             </button>
+                                </motion.div >
                         </div>
                     </div>
                 </div>

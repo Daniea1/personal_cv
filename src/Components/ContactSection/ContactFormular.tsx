@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import styles, {customColor} from '../../style';
 import emailjs from '@emailjs/browser';
 import {emailSchema} from "./EmailValidation";
+import {motion} from 'framer-motion';
 
 const ContactFormular = () => {
     const [name, setName] = useState('');
@@ -67,14 +68,15 @@ const ContactFormular = () => {
     return (
         <section
             id = "Kontakt"
-            className = {`${styles.flexCenter} ${styles.marginY} ${styles.padding}
+            className = {`${styles.flexCenter} ${styles.marginY} ${styles.padding} ${customColor.gradientDarkBlueNoDarkMode}
              sm:flex-row flex-col  shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-2xl dark:border-none border-[1px] border-gray-800`} >
             <div className = "flex-1 flex flex-col" >
                 <h2 className = {styles.heading2} >Kontakt mig</h2 >
                 <p className = {`${styles.paragraph} max-w-[470px] mt-5`} >
                     Du kan kontakte mig ved at sende en e-mail til:
                 </p >
-                <address className = "text-white dark:text-black text-center md:text-start" >danieal3@hotmail.com</address >
+                <address className = "text-white dark:text-black text-center md:text-start" >danieal3@hotmail.com
+                </address >
             </div >
 
             <form
@@ -140,12 +142,15 @@ const ContactFormular = () => {
                     )}
                 </div >
 
-                <button
-                    type = "submit"
-                    className = {`block mx-auto ${customColor.buttonGradientBlue}
-                     text-white p-2 rounded-md`} >
-                    Submit
-                </button >
+                <motion.div whileHover={{ scale: 1.05 }}>
+                    <button
+                        type="submit"
+                        className={`block mx-auto bg-blue-600 hover:bg-blue-700 text-white p-2 rounded-md`}
+                    >
+                        Submit
+                    </button>
+                </motion.div>
+
             </form >
         </section >
     );

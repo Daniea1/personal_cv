@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import {close, closeDark, DJLogo, DJLogoDark, menu, menuDark} from "../assets";
-import {navLinks} from "./infoArray";
-import ThemeSwitcher from "./ThemeSwitcher";
+import {close, closeDark, DJLogo, DJLogoDark, menu, menuDark} from "../../assets";
+import {navLinks} from "../infoArray";
+import ThemeSwitcher from "../ThemeSwitcher";
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);

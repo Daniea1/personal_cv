@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './style';
 import {Navbar, Business, ContactFormular, Stats, Footer, HeroPage, Competence, Projects} from "./Components";
-import BackToTopButton from "./Components/BackToTopButton";
-import Sidebar from "./Components/Sidebar";
+import BackToTopButton from "./Components/NavbarSection/BackToTopButton";
+import Sidebar from "./Components/NavbarSection/Sidebar";
 import Recommendations from "./Components/RecommendationSection/Recommendations";
 
 function App() {
@@ -24,8 +24,8 @@ function App() {
                 </div>
             </div>
 
-            <div className = {`bg-black dark:bg-white ${styles.paddingX} ${styles.flexStart}`} >
-                <div className = {`bg-black dark:bg-white ${styles.boxWidth}`} >
+            <div className = {`bg-black dark:dark:bg-gray-50 ${styles.paddingX} ${styles.flexStart}`} >
+                <div className = {`bg-black dark:dark:bg-gray-50 ${styles.boxWidth}`} >
                     <Competence/>
                     <Business />
                     <Recommendations/>
@@ -39,8 +39,11 @@ function App() {
                     <Footer />
                 </div >
             </div >
-            <BackToTopButton/>
-            <Sidebar/>
+
+            <div className="max-sm:hidden">
+                <BackToTopButton/>
+                <Sidebar/>
+            </div>
         </div >
     );
 }

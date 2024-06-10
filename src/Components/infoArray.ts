@@ -60,8 +60,8 @@ export const reasons = [
         icon: send,
         title: "Fleksibel",
         content:
-            "Jeg omfavner en vækstmindset og er hurtig til at mestre nye sprog," +
-            " rammer og værktøjer for at sikre tilpasning til skiftende projektbehov.",
+            "Jeg omfavner en growth-mindset og er hurtig til at mestre nye sprog," +
+            " frameworks og værktøjer for at sikre tilpasning til skiftende projektbehov.",
     },
 ];
 
@@ -69,7 +69,7 @@ export const stats = [
     {
         id: "stats-1",
         title: "Træninger I fitness i år",
-        value: "97+",
+        value: "110+",
     },
     {
         id: "stats-2",
@@ -197,10 +197,7 @@ export const sidebar = [
 export const recommendationsData = [
     {
         id: 1,
-        text: "Jeg har arbejdet sammen med Danieal på flere projekter, og han er altid dedikeret og professionel. " +
-            "Han er også meget pålidelig og tager ansvar for sine opgaver. Jeg kan varmt anbefale ham til enhver.",
-        name: "Peter Larsen",
-        position: "Lektor på Syddansk Universitet (SDU), Odense",
+        name: "Coming Soon",
     },
     {
         id: 2,
@@ -212,11 +209,7 @@ export const recommendationsData = [
     },
     {
         id: 3,
-        text: "Danieal har vist en enestående evne til at tilpasse sig hurtigt til nye udfordringer og levere " +
-            "høj kvalitet i sit arbejde. Hans positive attitude gør ham til en fornøjelse at arbejde sammen med." +
-            " Jeg kan stærkt anbefale ham.",
-        name: "Klaus Jensen",
-        position: "Lektor på Syddansk Universitet (SDU), Odense",
+        name: "Coming Soon",
     },
 ];
 

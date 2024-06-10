@@ -13,17 +13,17 @@ const HeroPage = () => {
 
             {/* The banner*/}
             <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 order-2 md:order-1 ${styles.flexCenter} md:${styles.flexStart}`}>
-                <motion.div className={`flex flex-row items-center py-[6px] px-4 ${customColor.gradientGrey} rounded-[10px] mb-2 text-white`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2, duration: 0.5 }}>
-                    <p className={`${styles.paragraph} ml-6 text-center md:text-left`}>
+                <motion.div className={`flex flex-row items-center py-[6px] px-4 ${customColor.gradientDarkBlueBanner} rounded-[10px] mb-2 text-white`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2, duration: 0.5 }}>
+                    <p className={`${styles.paragraph} ml-6 text-start md:text-left`}>
                         <span className="text-white">4th semester Software engineering Student at SDU</span>
                     </p>
                 </motion.div>
 
                 {/* The Big title */}
                 <motion.div className="flex flex-col justify-between lg:items-center md:items-start w-full" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4, duration: 0.5 }}>
-                    <h1 className="flex-1 font-poppins font-semibold text-[42px] md:text-[52px] text-white dark:text-black leading-[55px] md:leading-[75px] text-center md:text-left">
+                    <h1 className="flex-1 font-poppins font-semibold text-[38px] sm:text-[42px] md:text-[52px] text-white dark:text-black leading-[55px] md:leading-[75px] text-center md:text-left">
                         Hej, mit navn er <br className="lg:block hidden" />{" "}
-                        <span className={`${customColor.gradientBlue}`}>
+                        <span className={`${customColor.gradientDarkBlueTitleNoDarkMode}`}>
                             Danieal Johnbaskar
                         </span>{" "}
                     </h1>

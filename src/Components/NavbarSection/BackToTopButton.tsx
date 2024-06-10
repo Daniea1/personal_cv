@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
-import styles from "../style";
-import {backToTopArrowDark} from "../assets";
-import {backToTopArrow} from "../assets";
+import styles from "../../style";
+import {backToTopArrowDark} from "../../assets";
+import {backToTopArrow} from "../../assets";
 
 export const BackToTopButton = () => {
     const [backToTop, setBackToTop] = useState(false);

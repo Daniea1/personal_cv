@@ -2,6 +2,7 @@ import React from 'react';
 import {reasons} from "../infoArray";
 import styles, {customColor, layout} from "../../style";
 import FeatureCard from "./FeatureCard";
+import {motion} from 'framer-motion';
 
 const Business = () => {
 
@@ -28,14 +29,16 @@ const Business = () => {
                     Jeg ser frem til at kunne bringe mine kompetencer og engagement
                     til dit team og bidrage til virksomhedens succes.
                 </p >
-                <button
-                    type = "button"
-                    className = {`py-2 px-3 ${customColor.buttonGradientBlue}
+                <motion.div whileHover = {{scale: 1.05}} >
+                    <button
+                        type = "button"
+                        className = {`py-2 px-3 ${customColor.buttonGradientDarkBlue}
                     font-poppins font-medium text-[18px] text-white
                     outline-none rounded-xl ${styles}`}
-                    onClick={scrollToContactFormular}>
-                    Send e-mail
-                </button >
+                        onClick = {scrollToContactFormular} >
+                        Send e-mail
+                    </button >
+                </motion.div >
             </div >
 
             <div className = {`${layout.sectionImg} flex-col`} >

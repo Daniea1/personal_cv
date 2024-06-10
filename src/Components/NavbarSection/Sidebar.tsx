@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
-import {mailIcon, mailIconDark, reverseSidebarArrow, sidebarArrow} from "../assets";
-import styles, {customColor} from "../style";
-import {sidebar, socialMedia, socialMediaDark} from "./infoArray";
+import {mailIcon, mailIconDark, reverseSidebarArrow, sidebarArrow} from "../../assets";
+import styles, {customColor} from "../../style";
+import {sidebar, socialMedia, socialMediaDark} from "../infoArray";
 export const Sidebar = () => {
         const [isVisible, setIsVisible] = useState(false);
         const [sidebarOut, setSidebarOut] = useState(false);
@@ -33,7 +33,7 @@ export const Sidebar = () => {
             //the sidebar button
             <div className = "fixed top-1/2 right-2 transform -translate-y-1/2" >
                 {isVisible && !sidebarOut && (
-                    <div className = {`rounded-full ${customColor.buttonGradientBlue} h-[30px] w-[30px]
+                    <div className = {`rounded-full ${customColor.buttonGradientDarkBlue} h-[30px] w-[30px]
                     text-white text-2xl ${styles.flexCenter}`}
                          onClick = {() => setSidebarOut(true)} >
                         <img src = {sidebarArrow} alt = "sidebarArrow"

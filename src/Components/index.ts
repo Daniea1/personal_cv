@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navbar from "./NavbarSection/Navbar";
 import Business from "./BusinessSection/Business";
 import ContactFormular from "./ContactSection/ContactFormular";
 import Stats from "./HeroSection/Stats";
