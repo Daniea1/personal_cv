@@ -74,7 +74,7 @@ export const stats = [
     {
         id: "stats-2",
         title: "Kilometer løbt i år",
-        value: "63+",
+        value: "92+",
     },
     {
         id: "stats-3",

@@ -23,7 +23,10 @@ const Business = () => {
         <section id = "" className = {`${layout.section}`} >
             <div className = {`flex-1 flex justify-center items-center md:items-start flex-col`} >
                 <h2 className = {`${styles.heading2}`} >
-                    3 årsager til, <br className = "sm:block hidden" /> at du bør ansætte mig.
+                    3 årsager til <br className="lg:block hidden" />{" "}
+                    <span className={`${customColor.gradientDarkBlueTitleNoDarkMode}`}>
+                            at du bør ansætte mig
+                    </span>{" "}
                 </h2 >
                 <p className = {`${styles.paragraph} max-w-[470px] my-5`} >
                     Jeg ser frem til at kunne bringe mine kompetencer og engagement
