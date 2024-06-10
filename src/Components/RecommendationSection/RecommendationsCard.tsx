@@ -6,12 +6,12 @@ import {customColor} from "../../style";
 const RecommendationsCard = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center justify-center">
-            {recommendationsData.map((item) => (
+            {recommendationsData.map((item, index) => (
                 <div
                     key={item.id}
                     className={`col-span-1 p-5 shadow-lg rounded-lg dark:border-none border-[1px] border-gray-800
                      transition-transform transform hover:scale-105 hover:shadow-2xl dark:bg-white
-                     h-fit flex flex-col justify-between`}
+                     h-fit flex flex-col justify-between ${customColor.gradientDarkBlueNoDarkMode}`}
                 >
                     <div>
                         <div className="flex justify-center mt-12 mb-3">
@@ -24,10 +24,10 @@ const RecommendationsCard = () => {
                         </div>
                     </div>
                     <div className="mb-4">
-                        <div className={`text-center font-semibold ${customColor.gradientDarkBlueTitleNoDarkMode} dark:text-black`}>
+                        <div className={`text-center font-semibold ${customColor.gradientDarkBlueTextNoDarkMode} dark:text-black`}>
                             {item.name}
                         </div>
-                        <div className="text-center text-gray-500">
+                        <div className="text-center dark:text-gray-500 text-white">
                             {item.position}
                         </div>
                     </div>
