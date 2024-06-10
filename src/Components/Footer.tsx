@@ -6,7 +6,7 @@ import {DJLogo, DJLogoDark} from "../assets";
 const Footer = () => {
 
     const handleLinkClick = () => {
-        window.open('https://www.youtube.com/watch?v=QfvDXSOohn0&t=58s', '_blank');
+        window.open('https://daniealjohnbaskar.dk');
     };
 
     return (
@@ -59,7 +59,7 @@ const Footer = () => {
                  mr-0 md:ml-20 lg:mr-0 mt-2 md:mt-[-10px] lg:mt-[-20px]"
                 onClick={handleLinkClick} href="GoogleRatings"
             >
-                Hosted by - ART-Marketing.dk
+                Hosted by - daniealjohnbaskar.dk
             </a>
 
         </section >

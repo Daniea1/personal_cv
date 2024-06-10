@@ -40,8 +40,9 @@ function App() {
                 </div >
             </div >
 
+            <BackToTopButton/>
+
             <div className="max-sm:hidden">
-                <BackToTopButton/>
                 <Sidebar/>
             </div>
         </div >
