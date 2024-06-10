@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {mailIcon, mailIconDark, reverseSidebarArrow, sidebarArrow} from "../../assets";
 import styles, {customColor} from "../../style";
-import {sidebar, socialMedia, socialMediaDark} from "../infoArray";
+import {socialMedia, socialMediaDark} from "../infoArray";
 export const Sidebar = () => {
         const [isVisible, setIsVisible] = useState(false);
         const [sidebarOut, setSidebarOut] = useState(false);

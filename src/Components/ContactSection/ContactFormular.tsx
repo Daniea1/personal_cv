@@ -135,7 +135,7 @@ const ContactFormular = () => {
                         value = {message}
                         onChange = {(e) => setMessage(e.target.value)}
                         className = {`mt-1 p-2 w-full border rounded-md
-                         ${formSubmitted && message === '' && 'border-red-500'}`} > // Highlight border if form is submitted and message is empty
+                         ${formSubmitted && message === '' && 'border-red-500'}`} >
                     </textarea >
                     {formSubmitted && message === '' && (
                         <p className = "text-red-500 text-sm mt-1" >Besked er påkrævet</p >
