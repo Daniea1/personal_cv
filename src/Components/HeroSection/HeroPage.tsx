@@ -7,7 +7,7 @@ const HeroPage = () => {
     return (
         <motion.section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
             {/* The picture on the right for larger screens and on top for small screens */}
-            <div className={`flex-1 flex ${styles.flexCenter} my-10 relative order-1 md:order-2`}>
+            <div className={`flex-1 flex ${styles.flexCenter} my-10 mt-14 sm:mt-0 relative order-1 md:order-2`}>
                 <motion.img src={ProfilePicOne} alt="ProfilePicOne" className="w-[60%] sm:w-[60%] h-auto rounded-full object-cover" />
             </div>
 
