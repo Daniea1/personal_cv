@@ -14,7 +14,6 @@ const ContactFormular = () => {
         e.preventDefault();
         setFormSubmitted(true);
 
-        // wait for 'validateMessage' to be validated
         const isValidMessage = await validateMessage();
         if (!isValidMessage) {
             console.log('Invalid message');
@@ -22,18 +21,22 @@ const ContactFormular = () => {
         }
 
         // parameters nedeed for submiting message to my mail
-        const serviceId = 'service_r3wizdg';
-        const templateId = 'template_lu2wlmh';
-        const publicKey = '4emBEfuzcXPMu5crm';
+        const serviceId = process.env.REACT_APP_SERVICE_ID;
+        const templateId = process.env.REACT_APP_KONTAKT_TEMPLATE_ID;
+        const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+
+        if (!serviceId || !templateId || !publicKey) {
+            console.error("EmailJS configuration is missing");
+            return;
+        }
 
         const templateParams = {
             from_name: name,
-            from_email: email,
-            to_name: 'Danieal Johnbaskar',
-            message: message,
+            email,
+            to_name: 'Danieals Køreskole',
+            message,
         };
 
-        // Submits the message to my mail
         emailjs
             .send(serviceId, templateId, templateParams, publicKey)
             .then((response) => {
