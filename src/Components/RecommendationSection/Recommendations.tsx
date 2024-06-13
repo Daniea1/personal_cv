@@ -11,7 +11,7 @@ const Recommendations = () => {
                 </div >
                 <div className = {` font-poppins xs:text-[12.5px] text-[20px] 
                 xs:leading-[26px] leading[21px] text-gray-300 uppercase text-center mb-6`} >
-                    Disse er de udtalelse, jeg har erhvervet mig gennem diverse arbejdspladser.
+                    Disse er de udtalelser, jeg har erhvervet mig gennem diverse arbejdspladser.
                 </div >
                 <div  >
                     <RecommendationsCard/>

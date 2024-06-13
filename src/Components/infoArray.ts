@@ -73,7 +73,7 @@ export const stats = [
     },
     {
         id: "stats-2",
-        title: "Kilometer løbt i år",
+        title: "Kilometer løbet i år",
         value: "92+",
     },
     {
@@ -197,10 +197,6 @@ export const sidebar = [
 export const recommendationsData = [
     {
         id: 1,
-        name: "Coming Soon",
-    },
-    {
-        id: 2,
         text: "Jeg har haft fornøjelsen at kende Danieal Johnbaskar siden september 2022, hvor Danieal startede på uddannelsen til Civilingeniør i Software Engineering, og hvor han deltog i mit kursus i computersystemer.\n" +
             "Siden har Danieal fungeret som instruktor for efterfølgende studerende i samme fag. Her har Danieal vist sig som faglig kompetent samtidig med, at han har har en god dialog med de yngre studerende. Danieal har været god til at guidet de studerende gennem kursets faglige indhold, ligesom har har sparret med de studernde i personlige og studimæssige forhold.\n" +
             "Jeg anbefaler gerne Danieal som en seriøs samarbejdspartner.",
@@ -208,8 +204,23 @@ export const recommendationsData = [
         position: "Lektor/Ingeniør, Mærsk Mc-Kinney Møller Instituttet",
     },
     {
+        id: 2,
+        text: "I am writing to recommend Danieal Johnbaskar wholeheartedly, who has served as an instructor in my Data Management database course at the University of Southern Denmark." +
+            " During his tenure, Danieal has demonstrated an exceptional level of commitment and proficiency that has significantly contributed to the success of the course and the development of our students.\n" +
+            "Danieal's proactive attitude and initiative to assist students both inside and outside the classroom are commendable. His approachability and willingness to provide additional support have fostered a positive learning environment." +
+            " His dedication to ensuring student success, reflected in his prompt addressing of queries and facilitation of complex concept understanding, is a testament to his passion for education.\n" +
+            "Furthermore, Danieal's foundational knowledge in Data Management and related technologies is not only exemplary but also up-to-date." +
+            " His deep understanding of the subject matter, coupled with his commitment to staying abreast of the latest developments, allows him to deliver content effectively and inspire confidence in his students." +
+            " His ability to convey complex information in an accessible manner has been a significant asset to the course, and I am confident that he will continue to excel in any academic or professional endeavor he undertakes.",
+        name: "Jakob Hviid",
+        position: " PhD, Assistant Professor, University of Southern Denmark Software Engineering Section",
+    },
+    {
         id: 3,
-        name: "Coming Soon",
+        text: "Danieal er en gennemtænkende person, der grundigt overvejer sine planer og beslutninger." +
+            " Han holder hovedet koldt og går til opgaven med hovedet højt.",
+        name: "Martin Andersen Primdahl",
+        position: "Butikschef, Netto",
     },
 ];
 

@@ -22,7 +22,7 @@ const HeroPage = () => {
                 {/* The Big title */}
                 <motion.div className="flex flex-col justify-between lg:items-center md:items-start w-full" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4, duration: 0.5 }}>
                     <h1 className="flex-1 font-poppins font-semibold text-[38px] sm:text-[42px] md:text-[52px] text-white dark:text-black leading-[55px] md:leading-[75px] text-center md:text-left">
-                        Hej, mit navn er <br className="lg:block hidden" />{" "}
+                        Hey👋🏾 mit navn er <br className="lg:block hidden" />{" "}
                         <span className={`${customColor.gradientDarkBlueTitleNoDarkMode}`}>
                             Danieal Johnbaskar
                         </span>{" "}
