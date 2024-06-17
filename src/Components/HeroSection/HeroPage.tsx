@@ -13,11 +13,16 @@ const HeroPage = () => {
 
             {/* The banner*/}
             <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 order-2 md:order-1 ${styles.flexCenter} md:${styles.flexStart}`}>
-                <motion.div className={`flex flex-row items-center py-[6px] px-4 ${customColor.gradientDarkBlueBanner} rounded-[10px] mb-2 text-white`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2, duration: 0.5 }}>
-                    <p className={`${styles.paragraph} ml-0 sm:ml-6 text-center sm:text-start md:text-left`}>
-                        <span className="text-white">4th semester Software engineering Student at SDU</span>
-                    </p>
+                    <motion.div whileHover={{ scale: 1.05 }}>
+                        <motion.div className={`flex flex-row items-center py-[6px] px-4 
+                        ${customColor.gradientDarkBlueBanner} rounded-[10px] mb-2 text-white`}
+                        initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2, duration: 0.5 }}>
+                            <p className={`${styles.paragraph} ml-0 sm:ml-6 text-center sm:text-start md:text-left`}>
+                                <span className="text-white">4th semester Software engineering Student at SDU</span>
+                            </p>
+                    </motion.div>
                 </motion.div>
+
 
                 {/* The Big title */}
                 <motion.div className="flex flex-col justify-between lg:items-center md:items-start w-full" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4, duration: 0.5 }}>
