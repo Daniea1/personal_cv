@@ -34,4 +34,10 @@ export const customColor = {
     cardHover: "hover:bg-gray-700 dark:hover:bg-gray-200",
 };
 
+export const customColorPalette = {
+    mainColor: "",
+    secondColor: "",
+    thirdColor: "",
+};
+
 export default style;

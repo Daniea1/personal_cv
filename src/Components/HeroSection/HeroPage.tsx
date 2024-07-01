@@ -18,7 +18,7 @@ const HeroPage = () => {
                         ${customColor.gradientDarkBlueBanner} rounded-[10px] mb-2 text-white`}
                         initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2, duration: 0.5 }}>
                             <p className={`${styles.paragraph} ml-0 sm:ml-6 text-center sm:text-start md:text-left`}>
-                                <span className="text-white">4th semester Software engineering Student at SDU</span>
+                                <span className="text-white">5th semester Software engineering Student at SDU</span>
                             </p>
                     </motion.div>
                 </motion.div>
@@ -36,7 +36,7 @@ const HeroPage = () => {
 
                 {/* The small paragraph */}
                 <motion.p className={`${styles.paragraph} max-w-[470px] mt-5 text-gray-400 dark:text-black text-center md:text-left`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6, duration: 0.5 }}>
-                    Jeg er en 21-årig softwareingeniør, som i øjeblikket studerer Software engineering på Syddansk Universitet og er på nuværende tidspunkt på 4. semester.
+                    Jeg er en 21-årig softwareingeniør, som i øjeblikket studerer Software engineering på Syddansk Universitet og er på nuværende tidspunkt på 5. semester.
                 </motion.p>
             </div>
         </motion.section>

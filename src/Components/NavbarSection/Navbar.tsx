@@ -29,7 +29,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className = {`fixed top-0 z-10 flex h-72 max-h-[75px] w-full dark:bg-white shadow-lg
+        <nav className = {`fixed top-0 z-10 flex h-64 max-h-[64px] w-full dark:bg-white shadow-lg
         ${isBlurry ? 'bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 w-full' : ''}
          px-[20px]`} >
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { recommendationsData } from "../infoArray";
 import { FaStar } from "react-icons/fa";
-import {customColor} from "../../style";
+import { customColor } from "../../style";
 
 const RecommendationsCard = () => {
     return (
@@ -10,24 +10,38 @@ const RecommendationsCard = () => {
                 <div
                     key={item.id}
                     className={`col-span-1 p-5 shadow-lg rounded-lg dark:border-none border-[1px] border-gray-800
-                     transition-transform transform hover:scale-105 hover:shadow-2xl dark:bg-white
-                     h-fit flex flex-col justify-between ${customColor.gradientDarkBlueNoDarkMode}`}
+                     transition-transform transform hover:scale-105 hover:shadow-2xl dark:bg-white h-fit flex flex-col justify-between ${
+                        index === 1 ? customColor.gradientDarkBlueNoDarkMode :
+                            index === 2 ? 'bg-white' : ''
+                    }`}
                 >
                     <div>
-                        <div className="flex justify-center mt-12 mb-3">
+                        <div className="flex justify-center mt-4 mb-3">
                             {[...Array(5)].map((_, i) => (
                                 <FaStar key={i} className="text-yellow-400 text-2xl" />
                             ))}
                         </div>
-                        <div className="text-center mb-8 text-white dark:text-black h-48 overflow-auto">
-                            {item.text}
-                        </div>
+                    </div>
+                    <div className={`text-center mb-8 h-48 overflow-auto ${
+                        index === 0 ? 'text-white dark:text-black' :
+                        index === 1 ? 'text-white dark:text-black' :
+                            index === 2 ? 'text-black' : 'text-white dark:text-black'
+                    }`}>
+                        {item.text}
                     </div>
                     <div className="mb-4">
-                        <div className={`text-center font-semibold ${customColor.gradientDarkBlueTextNoDarkMode} dark:text-black`}>
+                        <div className={`text-center font-semibold ${
+                            index === 0 ? customColor.gradientDarkBlueTextNoDarkMode :
+                            index === 1 ? customColor.gradientDarkBlueTextNoDarkMode :
+                            index === 2 ? 'dark:bg-gradient-to-b from-indigo-600 to-blue-600 dark:text-transparent dark:bg-clip-text text-black' : ''
+                        }`}>
                             {item.name}
                         </div>
-                        <div className="text-center dark:text-gray-500 text-white">
+                        <div className={`text-center ${
+                            index === 0 ? 'text-white dark:text-black' :
+                            index === 1 ? 'text-white dark:text-black' :
+                                index === 2 ? 'text-black' : 'dark:text-gray-500 text-white'
+                        }`}>
                             {item.position}
                         </div>
                     </div>
