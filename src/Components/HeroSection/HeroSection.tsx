@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import styles, { customColor } from "../../style";
 import { ProfilePicOne } from "../../assets";
 
-const HeroPage = () => {
+const HeroSection = () => {
     return (
         <motion.section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
             {/* The picture on the right for larger screens and on top for small screens */}
@@ -43,4 +43,4 @@ const HeroPage = () => {
     );
 };
 
-export default HeroPage;
+export default HeroSection;

@@ -1,51 +1,21 @@
-import React from 'react';
-import styles from './style';
-import {Navbar, Business, ContactFormular, Stats, Footer, HeroPage, Competence, Projects} from "./Components";
-import BackToTopButton from "./Components/NavbarSection/BackToTopButton";
-import Sidebar from "./Components/NavbarSection/Sidebar";
-import Recommendations from "./Components/RecommendationSection/Recommendations";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Navbar } from "./Components";
+import HomePage from "./Pages/HomePage";
+import CookiePolicyPage from "./Pages/CookiePolicyPage";
+
 
 function App() {
     return (
-        <div className = "bg-black dark:bg-gray-50 w-full overflow-hidden" >
-            <div className = {`${styles.paddingX} ${styles.flexCenter}`} >
-                    <Navbar />
-            </div >
-
-            <div className = {`bg-black dark:bg-gray-50 ${styles.flexStart} lg:my-[50px] mb-24 sm:mb-20 md:mb-10`} >
-                <div className = {`bg-black dark:bg-gray-50 ${styles.boxWidth}`} >
-                    <HeroPage />
-                </div >
-            </div >
-
-            <div className="relative z-1">
-                <div className="absolute top-[-80px] w-full">
-                    <Stats />
-                </div>
-            </div>
-
-            <div className = {`bg-black dark:dark:bg-gray-50 ${styles.paddingX} ${styles.flexStart}`} >
-                <div className = {`bg-black dark:dark:bg-gray-50 ${styles.boxWidth}`} >
-                    <Competence/>
-                    <Business />
-                    <Recommendations/>
-                </div >
-            </div >
-
-            <div className = {`bg-black dark:bg-gray-50 ${styles.paddingX} ${styles.flexStart}`} >
-                <div className = {`bg-black dark:bg-gray-50 ${styles.boxWidth}`} >
-                    <Projects/>
-                    <ContactFormular />
-                    <Footer />
-                </div >
-            </div >
-
-            <BackToTopButton/>
-
-            <div className="max-sm:hidden">
-                <Sidebar/>
-            </div>
-        </div >
+        <div className="App">
+            <Router>
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/privatlivspolitik" element={<CookiePolicyPage />} />
+                    <Route path="*" element={<h1> PAGE NOT FOUND</h1>} />
+                </Routes>
+            </Router>
+        </div>
     );
 }
 

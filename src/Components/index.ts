@@ -3,7 +3,7 @@ import Business from "./BusinessSection/Business";
 import ContactFormular from "./ContactSection/ContactFormular";
 import Stats from "./HeroSection/Stats";
 import Footer from "./Footer";
-import HeroPage from "./HeroSection/HeroPage";
+import HeroSection from "./HeroSection/HeroSection";
 import Competence from "./CompetenceSection/Competence";
 import Projects from "./ProjectsSection/Projects";
 
@@ -13,7 +13,7 @@ export {
     ContactFormular,
     Stats,
     Footer,
-    HeroPage,
+    HeroSection,
     Competence,
     Projects,
 };

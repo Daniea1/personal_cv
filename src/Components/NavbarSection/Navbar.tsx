@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {close, closeDark, DJLogo, DJLogoDark, menu, menuDark} from "../../assets";
 import {navLinks} from "../infoArray";
 import ThemeSwitcher from "../ThemeSwitcher";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
@@ -36,17 +37,18 @@ const Navbar = () => {
             {/* The responsive menu large screen */}
             <ul className = "list-none sm:flex hidden justify-center items-center flex-1" >
                 <div className = "xl:mr-96 lg:mr-72 md:mr-12 sm:mr-8" >
-                    <div className = "block dark:hidden" >
+                    <a href="/" className="block dark:hidden">
                         <img src = {DJLogo} alt = "DJLogo" className = "sm:w-[200px] lg:w-[250px] h-[62px]" />
-                    </div >
-                    <div className = "hidden dark:block" >
+                    </a >
+                    <a href="/" className="hidden dark:block">
                         <img src = {DJLogoDark} alt = "DJLogo" className = "sm:w-[200px] lg:w-[250px] h-[62px]" />
-                    </div >
+                    </a >
                 </div >
+
                 {navLinks.map((nav) => (
-                    <li key = {nav.id}
+                    <Link key = {nav.id}
                         className = {`font-poppins font-normal cursor-pointer text-[16px]
-                         px-2 md:mr-10 sm:mr-0 text-white dark:text-black`} >
+                         px-2 md:mr-10 sm:mr-0 text-white dark:text-black`}  to="/">
                         <a href = {`#${nav.id}`}
                            className = "hover:border-b-2 hover:border-white dark:hover:border-black"
                            onClick = {(e) => {
@@ -55,7 +57,7 @@ const Navbar = () => {
                            }} >
                             {nav.title}
                         </a >
-                    </li >
+                    </Link >
                 ))}
                 <ThemeSwitcher />
             </ul >
