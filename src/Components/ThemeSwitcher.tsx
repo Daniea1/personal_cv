@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {darkModeIcon, lightModeIcon} from "../assets";
 
 const ThemeSwitcher = () => {
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(true);
 
     // // Effect hook to check the initial dark mode state from localStorage
     // useEffect(() => {
