@@ -11,7 +11,7 @@ const RecommendationsCard = () => {
                     key={item.id}
                     className={`col-span-1 p-5 shadow-lg rounded-lg dark:border-none border-[1px] border-gray-800
                      transition-transform transform hover:scale-105 hover:shadow-2xl dark:bg-white h-fit flex flex-col justify-between ${
-                        index === 1 ? customColor.gradientDarkBlueNoDarkMode :
+                        index === 1 ? customColor.gradientDarkBlue :
                             index === 2 ? 'bg-white' : ''
                     }`}
                 >
@@ -24,7 +24,7 @@ const RecommendationsCard = () => {
                     </div>
                     <div className={`text-center mb-8 h-48 overflow-auto ${
                         index === 0 ? 'text-white dark:text-black' :
-                        index === 1 ? 'text-white dark:text-black' :
+                        index === 1 ? 'text-white' :
                             index === 2 ? 'text-black' : 'text-white dark:text-black'
                     }`}>
                         {item.text}
@@ -32,14 +32,14 @@ const RecommendationsCard = () => {
                     <div className="mb-4">
                         <div className={`text-center font-semibold ${
                             index === 0 ? customColor.gradientDarkBlueTextNoDarkMode :
-                            index === 1 ? customColor.gradientDarkBlueTextNoDarkMode :
-                            index === 2 ? 'dark:bg-gradient-to-b from-indigo-600 to-blue-600 dark:text-transparent dark:bg-clip-text text-black' : ''
+                            index === 1 ? 'text-white' :
+                            index === 2 ? 'bg-gradient-to-b from-indigo-600 to-blue-600 text-transparent bg-clip-text' : ''
                         }`}>
                             {item.name}
                         </div>
                         <div className={`text-center ${
                             index === 0 ? 'text-white dark:text-black' :
-                            index === 1 ? 'text-white dark:text-black' :
+                            index === 1 ? 'text-white' :
                                 index === 2 ? 'text-black' : 'dark:text-gray-500 text-white'
                         }`}>
                             {item.position}
