@@ -2,7 +2,6 @@ import React from 'react';
 import styles from '../style';
 import {Business, ContactFormular, Stats, Footer, HeroSection, Competence, Projects} from "../Components";
 import BackToTopButton from "../Components/NavbarSection/BackToTopButton";
-import Sidebar from "../Components/NavbarSection/Sidebar";
 import Recommendations from "../Components/RecommendationSection/Recommendations";
 
 function HomePage() {
@@ -37,10 +36,6 @@ function HomePage() {
             </div >
 
             <BackToTopButton/>
-
-            <div className="max-sm:hidden">
-                <Sidebar/>
-            </div>
         </div >
     );
 }
