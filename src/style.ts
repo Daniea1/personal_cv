@@ -26,12 +26,12 @@ export const layout = {
 };
 
 export const customColor = {
-    gradientDarkBlueTitleNoDarkMode: "bg-gradient-to-r from-indigo-500 to-blue-500 text-transparent bg-clip-text",
-    gradientDarkBlueTextNoDarkMode: "dark:bg-gradient-to-r from-indigo-500 to-blue-500 dark:text-transparent dark:bg-clip-text text-white",
-    gradientDarkBlueNoDarkMode: "bg-gradient-to-b from-indigo-500 to-blue-500 dark:from-white dark:via-white dark:to-white",
-    gradientDarkBlue: "bg-gradient-to-b from-indigo-500 to-blue-500",
-    gradientDarkBlueBanner: "bg-gradient-to-b from-indigo-500 to-blue-500",
-    buttonGradientDarkBlue: "bbg-gradient-to-b from-indigo-500 to-blue-500 hover:to-blue-500 hover:from-indigo-500 active:opacity-80",
+    gradientDarkBlueTitleNoDarkMode: "bg-gradient-to-b from-indigo-600 to-blue-600 text-transparent bg-clip-text",
+    gradientDarkBlueTextNoDarkMode: "dark:bg-gradient-to-b from-indigo-600 to-blue-600 dark:text-transparent dark:bg-clip-text text-white",
+    gradientDarkBlueNoDarkMode: "bg-gradient-to-b from-indigo-600 via-indigo-600 to-blue-600 dark:from-white dark:via-white dark:to-white",
+    gradientDarkBlue: "bg-gradient-to-b from-indigo-600 via-indigo-600 to-blue-600",
+    gradientDarkBlueBanner: "bg-gradient-to-b from-indigo-600 via-indigo-600 to-blue-600",
+    buttonGradientDarkBlue: "bg-gradient-to-b from-indigo-600 to-blue-600 hover:to-blue-600 hover:from-indigo-600 active:opacity-80",
     cardHover: "hover:bg-gray-700 dark:hover:bg-gray-200",
 };
 
