@@ -16,7 +16,7 @@ const RecommendationsCard = () => {
                      }
                     
                     ${
-                        index === 1 ? 'py-10' : ''
+                        index === 1 ? 'py-6' : ''
                     }`}
                 >
                     <div>
