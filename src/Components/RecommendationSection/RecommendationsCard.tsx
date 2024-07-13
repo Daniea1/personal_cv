@@ -10,8 +10,13 @@ const RecommendationsCard = () => {
                 <div
                     key={item.id}
                     className={`col-span-1 p-5 shadow-xl rounded-lg dark:border-none border-[1px] border-gray-800
-                     transition-transform transform hover:scale-105 hover:shadow-2xl dark:bg-white h-fit flex flex-col justify-between ${
+                     transition-transform transform hover:scale-105 hover:shadow-2xl dark:bg-white h-fit flex flex-col justify-between
+                     ${
                         index === 1 ? customColor.gradientDarkBlue : ''
+                     }
+                    
+                    ${
+                        index === 1 ? 'py-10' : ''
                     }`}
                 >
                     <div>
