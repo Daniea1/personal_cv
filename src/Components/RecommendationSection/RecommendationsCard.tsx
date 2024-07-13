@@ -1,7 +1,7 @@
 import React from "react";
 import { recommendationsData } from "../infoArray";
 import { FaStar } from "react-icons/fa";
-import { customColor } from "../../style";
+import { customColors } from "../../style";
 
 const RecommendationsCard = () => {
     return (
@@ -12,7 +12,7 @@ const RecommendationsCard = () => {
                     className={`col-span-1 p-5 shadow-xl rounded-lg dark:border-none border-[1px] border-gray-800
                      transition-transform transform hover:scale-105 hover:shadow-2xl dark:bg-white h-fit flex flex-col justify-between
                      ${
-                        index === 1 ? customColor.gradientDarkBlue : ''
+                        index === 1 ? customColors.gradientDarkBlueNoDarkMode : ''
                      }
                     
                     ${
@@ -35,9 +35,9 @@ const RecommendationsCard = () => {
                     </div>
                     <div className="mb-4">
                         <div className={`text-center font-semibold ${
-                            index === 0 ? customColor.gradientDarkBlueTextNoDarkMode :
+                            index === 0 ? customColors.gradientDarkBlueTextNoDarkMode :
                             index === 1 ? 'text-white' :
-                                index === 2 ? customColor.gradientDarkBlueTextNoDarkMode : ''
+                                index === 2 ? customColors.gradientDarkBlueTextNoDarkMode : ''
                         }`}>
                             {item.name}
                         </div>

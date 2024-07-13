@@ -1,6 +1,6 @@
 import React from 'react';
 import {reasons} from "../infoArray";
-import styles, {customColor, layout} from "../../style";
+import styles, {customColors, layout} from "../../style";
 import FeatureCard from "./FeatureCard";
 import {motion} from 'framer-motion';
 
@@ -24,7 +24,7 @@ const Business = () => {
             <div className = {`flex-1 flex justify-center items-center md:items-start flex-col`} >
                 <h2 className = {`${styles.heading2}`} >
                     3 årsager til <br className="lg:block hidden" />{" "}
-                    <span className={`${customColor.gradientDarkBlueTitleNoDarkMode}`}>
+                    <span className={`${customColors.gradientDarkBlueTitleNoDarkMode}`}>
                             at du bør ansætte mig
                     </span>{" "}
                 </h2 >
@@ -35,7 +35,7 @@ const Business = () => {
                 <motion.div whileHover = {{scale: 1.05}} >
                     <button
                         type = "button"
-                        className = {`py-2 px-3 ${customColor.buttonGradientDarkBlue}
+                        className = {`py-2 px-3 ${customColors.buttonGradientDarkBlue}
                     font-poppins font-medium text-[18px] text-white
                     outline-none rounded-xl ${styles}`}
                         onClick = {scrollToContactFormular} >

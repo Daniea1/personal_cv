@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import styles, {customColor} from '../../style';
+import styles, {customColors} from '../../style';
 import emailjs from '@emailjs/browser';
 import {emailSchema} from "./EmailValidation";
 import {motion} from 'framer-motion';
@@ -71,7 +71,7 @@ const ContactFormular = () => {
     return (
         <section
             id = "Kontakt"
-            className = {`${styles.flexCenter} ${styles.marginY} ${styles.padding} ${customColor.gradientDarkBlueNoDarkMode}
+            className = {`${styles.flexCenter} ${styles.marginY} ${styles.padding} ${customColors.gradientDarkBlue}
              sm:flex-row flex-col  shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-2xl dark:border-none border-[1px] border-gray-800`} >
             <div className = "flex-1 flex flex-col" >
                 <h2 className = {styles.heading2} >Kontakt mig</h2 >
