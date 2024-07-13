@@ -26,7 +26,7 @@ const RecommendationsCard = () => {
                             ))}
                         </div>
                     </div>
-                    <div className={`text-center mb-8 h-48 overflow-auto ${
+                    <div className={`text-center mb-8 h-36 overflow-auto ${
                         index === 0 ? 'text-white dark:text-black' :
                         index === 1 ? 'text-white' :
                             index === 2 ? 'text-white dark:text-black' : ''
