@@ -17,7 +17,7 @@ import {
     postgressLogo,
     JavascriptLogo,
     pythonLogo,
-    samplePDF1, samplePDF2,
+    samplePDF1, samplePDF2, StephanWebsite,
 } from "../assets";
 
 export const navLinks = [
@@ -175,6 +175,12 @@ export const projectData = [
         title: 'Personlig hjemmeside',
         description: "Min egen hjemmeside brugt til at fremvise mine projekter og færdigheder.",
         kildeKode: "https://github.com/Daniea1/personal_cv",
+    },
+    {
+        projectPicture: StephanWebsite,
+        title: 'Stephans køreskole.',
+        description: "En fuld funktionel hjemmeside som jeg har selv har kodet for Stephans køreskole.",
+        kildeKode: "https://stephanskoreskole.dk",
     },
 ];
 

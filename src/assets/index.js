@@ -42,6 +42,7 @@ import pythonLogo from "./pythonLogo.png"
 import ProfilePicOne from "./ProfilePicOne.png"
 import samplePDF1 from "../assets/DaniealJohnbaskarAnbefalingMorten.pdf";
 import samplePDF2 from "../assets/DaniealJohnbaskarAnbefalingJakob.pdf";
+import StephanWebsite from "../assets/StephanWebsite.png";
 
 export {
     quotes,
@@ -80,6 +81,7 @@ export {
     ProfilePicOne,
     samplePDF1,
     samplePDF2,
+    StephanWebsite,
     // HtmlCssLogoDark,
     // pythonLogoDark,
     // javaLogoDark,
