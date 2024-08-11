@@ -178,7 +178,7 @@ export const projectData = [
     },
     {
         projectPicture: StephanWebsite,
-        title: 'Stephans køreskole.',
+        title: 'Stephans køreskole',
         description: "En fuld funktionel hjemmeside som jeg har selv har kodet for Stephans køreskole.",
         kildeKode: "https://stephanskoreskole.dk",
     },
