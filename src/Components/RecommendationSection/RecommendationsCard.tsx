@@ -13,7 +13,7 @@ const RecommendationsCard = () => {
                      transition-transform transform hover:scale-105 hover:shadow-2xl dark:bg-white h-fit flex flex-col justify-between
                      ${
                         index === 1 ? customColors.gradientDarkBlueNoDarkMode : ''
-                     }
+                    }
                     
                     ${
                         index === 1 ? 'py-6' : ''
@@ -28,37 +28,40 @@ const RecommendationsCard = () => {
                     </div>
                     <div className={`text-center mb-8 h-36 overflow-auto ${
                         index === 0 ? 'text-white dark:text-black' :
-                        index === 1 ? 'text-white' :
-                            index === 2 ? 'text-white dark:text-black' : ''
+                            index === 1 ? 'text-white' :
+                                index === 2 ? 'text-white dark:text-black' : ''
                     }`}>
                         {item.text}
                     </div>
                     <div className="mb-4 flex flex-col items-center">
                         <div className={`text-center font-semibold ${
                             index === 0 ? customColors.gradientDarkBlueTextNoDarkMode :
-                            index === 1 ? 'text-white' :
-                                index === 2 ? customColors.gradientDarkBlueTextNoDarkMode : ''
+                                index === 1 ? 'text-white' :
+                                    index === 2 ? customColors.gradientDarkBlueTextNoDarkMode : ''
                         }`}>
                             {item.name}
                         </div>
                         <div className={`text-center ${
                             index === 0 ? 'text-white dark:text-black' :
-                            index === 1 ? 'text-white' :
-                                index === 2 ? 'text-white dark:text-black' : ''
+                                index === 1 ? 'text-white' :
+                                    index === 2 ? 'text-white dark:text-black' : ''
                         }`}>
                             {item.position}
                         </div>
-                        <div>
-                            <button
-                                type="button"
-                                className={`py-2 px-3 mt-2 ${customColors.buttonGradientDarkBlue}
-                                 font-medium text-[14px] text-white outline-none rounded-xl`}
-                            >
-                                <a href={item.anbefalingPDF} target="_blank" rel="noopener noreferrer">
-                                    Udskrift
-                                </a>
-                            </button>
-                        </div>
+                        {/* Conditionally render the button for index 0 and 1 */}
+                        {(index === 0 || index === 1) && (
+                            <div>
+                                <button
+                                    type="button"
+                                    className={`py-2 px-3 mt-2 ${customColors.buttonGradientDarkBlue}
+                                     font-medium text-[14px] text-white outline-none rounded-xl`}
+                                >
+                                    <a href={item.anbefalingPDF} target="_blank" rel="noopener noreferrer">
+                                        Udskrift
+                                    </a>
+                                </button>
+                            </div>
+                        )}
                     </div>
                 </div>
             ))}
