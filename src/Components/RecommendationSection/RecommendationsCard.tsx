@@ -33,7 +33,7 @@ const RecommendationsCard = () => {
                     }`}>
                         {item.text}
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 flex flex-col items-center">
                         <div className={`text-center font-semibold ${
                             index === 0 ? customColors.gradientDarkBlueTextNoDarkMode :
                             index === 1 ? 'text-white' :
@@ -47,6 +47,17 @@ const RecommendationsCard = () => {
                                 index === 2 ? 'text-white dark:text-black' : ''
                         }`}>
                             {item.position}
+                        </div>
+                        <div>
+                            <button
+                                type="button"
+                                className={`py-2 px-3 mt-2 ${customColors.buttonGradientDarkBlue}
+                                 font-medium text-[14px] text-white outline-none rounded-xl`}
+                            >
+                                <a href={item.anbefalingPDF} target="_blank" rel="noopener noreferrer">
+                                    Udskrift
+                                </a>
+                            </button>
                         </div>
                     </div>
                 </div>

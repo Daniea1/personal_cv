@@ -17,6 +17,7 @@ import {
     postgressLogo,
     JavascriptLogo,
     pythonLogo,
+    samplePDF1, samplePDF2,
 } from "../assets";
 
 export const navLinks = [
@@ -203,6 +204,7 @@ export const recommendationsData = [
             "Jeg anbefaler gerne Danieal som en seriøs samarbejdspartner.",
         name: "Morten Hansen",
         position: "Lektor/Ingeniør, Mærsk Mc-Kinney Møller Instituttet",
+        anbefalingPDF: samplePDF1
     },
     {
         id: 2,
@@ -215,6 +217,7 @@ export const recommendationsData = [
             " His ability to convey complex information in an accessible manner has been a significant asset to the course, and I am confident that he will continue to excel in any academic or professional endeavor he undertakes.",
         name: "Jakob Hviid",
         position: " PhD, Assistant Professor, University of Southern Denmark Software Engineering Section",
+        anbefalingPDF: samplePDF2
     },
     {
         id: 3,

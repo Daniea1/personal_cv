@@ -40,6 +40,8 @@ import JavascriptLogo from "./javascriptLogo.png"
 import pythonLogo from "./pythonLogo.png"
 // import pythonLogoDark from "./pythonLogoDark.png"
 import ProfilePicOne from "./ProfilePicOne.png"
+import samplePDF1 from "../assets/DaniealJohnbaskarAnbefalingMorten.pdf";
+import samplePDF2 from "../assets/DaniealJohnbaskarAnbefalingJakob.pdf";
 
 export {
     quotes,
@@ -76,6 +78,8 @@ export {
     JavascriptLogo,
     pythonLogo,
     ProfilePicOne,
+    samplePDF1,
+    samplePDF2,
     // HtmlCssLogoDark,
     // pythonLogoDark,
     // javaLogoDark,
