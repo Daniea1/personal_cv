@@ -70,12 +70,12 @@ export const stats = [
     {
         id: "stats-1",
         title: "Træninger I fitness i år",
-        value: "142+",
+        value: "147+",
     },
     {
         id: "stats-2",
         title: "Kilometer løbet i år",
-        value: "161+",
+        value: "176+",
         //68km MapMyRun
     },
     {
@@ -179,7 +179,7 @@ export const projectData = [
     {
         projectPicture: StephanWebsite,
         title: 'Stephans køreskole',
-        description: "En fuld funktionel hjemmeside som jeg har selv har kodet for Stephans køreskole.",
+        description: "En fuld funktionel hjemmeside som jeg selv har kodet for Stephans køreskole.",
         kildeKode: "https://stephanskoreskole.dk",
     },
 ];
