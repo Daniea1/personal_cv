@@ -70,12 +70,12 @@ export const stats = [
     {
         id: "stats-1",
         title: "Træninger I fitness i år",
-        value: "147+",
+        value: "165+",
     },
     {
         id: "stats-2",
         title: "Kilometer løbet i år",
-        value: "176+",
+        value: "212+",
         //68km MapMyRun
     },
     {
@@ -176,12 +176,12 @@ export const projectData = [
         description: "Min egen hjemmeside brugt til at fremvise mine projekter og færdigheder.",
         kildeKode: "https://github.com/Daniea1/personal_cv",
     },
-    {
-        projectPicture: StephanWebsite,
-        title: 'Stephans køreskole',
-        description: "En fuld funktionel hjemmeside som jeg selv har kodet for Stephans køreskole.",
-        kildeKode: "https://stephanskoreskole.dk",
-    },
+    // {
+    //     projectPicture: StephanWebsite,
+    //     title: 'Stephans køreskole',
+    //     description: "En fuld funktionel hjemmeside som jeg selv har kodet for Stephans køreskole.",
+    //     kildeKode: "https://stephanskoreskole.dk",
+    // },
 ];
 
 export const sidebar = [

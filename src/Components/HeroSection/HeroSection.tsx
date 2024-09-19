@@ -36,7 +36,7 @@ const HeroSection = () => {
 
                 {/* The small paragraph */}
                 <motion.p className={`${styles.paragraph} max-w-[470px] mt-5 text-gray-400 dark:text-black text-center md:text-left`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6, duration: 0.5 }}>
-                    Jeg er en 21-årig softwareingeniør, som i øjeblikket studerer Software engineering på Syddansk Universitet og er på nuværende tidspunkt på 5. semester.
+                    Jeg er en 22-årig softwareingeniør, som i øjeblikket studerer Software engineering på Syddansk Universitet og er på nuværende tidspunkt på 5. semester.
                 </motion.p>
             </div>
         </motion.section>
