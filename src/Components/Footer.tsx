@@ -57,7 +57,7 @@ const Footer = () => {
             <a
                 className="text-sm font-medium underline dark:text-gray-500 text-white
                  mr-0 md:ml-20 lg:mr-0 mt-2 md:mt-[-10px] lg:mt-[-20px]"
-                onClick={handleLinkClick} href="GoogleRatings"
+                onClick={handleLinkClick} href=""
             >
                 Hosted by - daniealjohnbaskar.dk
             </a>

@@ -45,7 +45,7 @@ export const reasons = [
         icon: star,
         title: "Løsningsorienteret",
         content:
-            "Jeg er dygtig til at analysere og nedbryde problemer i håndterbare komponenter" +
+            "Jeg er dygtig til at analysere og nedbryde problemer i håndterbare størrelser" +
             " og udvikle effektive løsninger."
     },
     {
@@ -61,8 +61,8 @@ export const reasons = [
         icon: send,
         title: "Fleksibel",
         content:
-            "Jeg omfavner en growth-mindset og er hurtig til at mestre nye sprog," +
-            " frameworks og værktøjer for at sikre tilpasning til skiftende projektbehov.",
+            "Jeg omfavner en growth-mindset og er hurtig til at lære nye sprog, frameworks og værktøjer. " +
+            "At bruge en weekend på at nørde mig igennem en 10+ timers YouTube-video er intet problem for mig.",
     },
 ];
 

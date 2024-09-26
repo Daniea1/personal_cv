@@ -28,7 +28,7 @@ const Business = () => {
                             at du bør ansætte mig
                     </span>{" "}
                 </h2 >
-                <p className = {`${styles.paragraph} max-w-[470px] my-5`} >
+                <p className = {`${styles.paragraph} max-w-[470px] mt-2 mb-5`} >
                     Jeg ser frem til at kunne bringe mine kompetencer og engagement
                     til dit team og bidrage til virksomhedens succes.
                 </p >
