@@ -29,7 +29,7 @@ function HomePage() {
 
             <div className = {`bg-black dark:bg-gray-50 ${styles.paddingX} ${styles.flexStart}`} >
                 <div className = {`bg-black dark:bg-gray-50 ${styles.boxWidth}`} >
-                    <Projects/>
+                    {/*<Projects/>*/}
                     <ContactFormular />
                     <Footer />
                 </div >
