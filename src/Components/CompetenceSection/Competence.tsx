@@ -12,7 +12,7 @@ const Competence = () => {
                 </div >
                 <div className = {` font-poppins xs:text-[12.5px] text-[20px] 
                 xs:leading-[26px] leading[21px] text-gray-300 uppercase text-center`} >
-                    Disse er de erfaringer, jeg har fået mig igennem projekter på universitetet
+                    Disse er et udpluk af de erfaringer, som jeg har fået mig igennem projekter på universitetet
                     samt fritidsprojekter.
                 </div >
                 <div >

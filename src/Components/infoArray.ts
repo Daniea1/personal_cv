@@ -70,12 +70,12 @@ export const stats = [
     {
         id: "stats-1",
         title: "Træninger I fitness i år",
-        value: "165+",
+        value: "189+",
     },
     {
         id: "stats-2",
         title: "Kilometer løbet i år",
-        value: "212+",
+        value: "275+",
         //68km MapMyRun
     },
     {
